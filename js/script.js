@@ -49,14 +49,14 @@ var windowwidth = window.innerWidth || document.documentElement.clientWidth || 0
 		if (windowwidth > 768){
 			var responsiveImage = [
 				{ src: 'https://github.com/KiZen0428/kizen/blob/main/images/ie.jpg?raw=true'},
-				{ src: '../images/image3.jpg'},
-				{ src: '../images/tea.jpg'}
+				{ src: 'https://github.com/KiZen0428/kizen/blob/main/images/image3.jpg?raw=true'},
+				{ src: 'https://github.com/KiZen0428/kizen/blob/main/images/tea.jpg?raw=true'}
 			];
 		} else {
 			var responsiveImage = [
 				{ src: 'https://github.com/KiZen0428/kizen/blob/main/images/ie.jpg?raw=true' },
-				{ src: '../images/image3.jpg' },
-				{ src: '../images/tea.jpg' }
+				{ src: 'https://github.com/KiZen0428/kizen/blob/main/images/image3.jpg?raw=true' },
+				{ src: 'https://github.com/KiZen0428/kizen/blob/main/images/tea.jpg?raw=true' }
 			];
 		}
 
