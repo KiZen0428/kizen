@@ -164,6 +164,15 @@ a:hover {
   z-index: -1;
 }
 
+
+.about-us {
+  width: 75%;
+  margin: auto;
+  text-align: center;
+}
+
+
+
 /* new section */
 .course {
   width: 80%;
@@ -252,13 +261,13 @@ h3 {
   width: 100%;
   font-weight: 500;
   color: #fff;
-  font-size: 26px;
+  font-size: 22px;
   bottom: 0;
-  left: 50%;
+  left: 40%;
   transform: translateX(-50%);
   position: absolute;
   opacity: 0;
-  transition: 0.5s;
+  transition: 0.7s;
 }
 
 .layer:hover h3 {
