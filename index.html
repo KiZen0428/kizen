@@ -48,8 +48,8 @@
           <li><a href="#home" class="btnripple3">Home</a></li>
           <li><a href="#line-up" class="btnripple3">Line up</a></li>
           <li><a href="#about" class="btnripple3">About</a></li>
-          <li><a href="./contact.html" class="btnripple3" id="contact-here"
-              >Contact</a
+          <li>
+            <a href="#location" class="btnripple3">Contact</a
             >
           </li>
         </ul>
@@ -63,10 +63,7 @@
 
     <section class="course" id="line-up">
       <h1>Line Up</h1>
-      <p>
-        this is going to be the our product.Lorem ipsum dolor sit amet
-        consectetur adipisicing elit.
-      </p>
+      <p>商品紹介</p>
 
       <div class="row">
         <div class="campus-col">
@@ -105,7 +102,7 @@
     <section class="campus" id="about">
       <h1>About Us</h1>
       <p class="about-us">
-        株式会社ＫｉＺｅｎ <br>
+        株式会社ＫｉＺｅｎ <br />
         世界を旅して現地を歩き、人々と触れ合いながら肌で感じたリアルな日本の素晴らしさを、
         日本ならではのものを通じて届けていきます。
         社名のKiZen（きぜん）は凛とした日本人のイメージ、
@@ -139,63 +136,89 @@
     </section>
     <!-- finish cource -->
 
-<!-- contact section start -->
-<section class="location">
-  <iframe
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3269.3356953962484!2d138.42907821483843!3d34.97325527608032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601a373fd8a06233%3A0xfabf15e18367683!2sKiZen!5e0!3m2!1sja!2sjp!4v1651559988216!5m2!1sja!2sjp"
-    width="600"
-    height="450"
-    style="border: 0"
-    allowfullscreen=""
-    loading="lazy"
-    referrerpolicy="no-referrer-when-downgrade"
-  ></iframe>
-</section>
 
 
 
 
 
-<section class="contact-us" id="contact-here">
-  <div class="row">
-    <div class="contact-col">
-      <div>
-        <i class="fa fa-home"> </i>
-        <span>
-          <h5>1594-9 Oshika Suruga Shizuoka Japan</h5>
-          <p>1594-9 Oshika Suruga Shizuoka Japan</p>
-        </span>
+
+
+    <!-- contact section start -->
+    <section class="location" id="location">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3269.3356953962484!2d138.42907821483843!3d34.97325527608032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601a373fd8a06233%3A0xfabf15e18367683!2sKiZen!5e0!3m2!1sja!2sjp!4v1651559988216!5m2!1sja!2sjp"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
+
+    <section class="contact-us" id="contact-here">
+      <div class="row">
+        <div class="contact-col">
+          <div>
+            <i class="fa fa-home"> </i>
+            <span>
+              <h5>1594-9 Oshika Suruga Shizuoka Japan</h5>
+              <p>1594-9 Oshika Suruga Shizuoka Japan</p>
+            </span>
+          </div>
+          <div>
+            <i class="fa fa-phone"> </i>
+            <span>
+              <h5>+81 054 264 6454</h5>
+              <p>Monday to Saturday, 10AM to 6PM Japan-time</p>
+            </span>
+          </div>
+          <div>
+            <i class="fa fa-envelope-o"> </i>
+            <span>
+              <h5>
+                For English 　 sakura@kizen0428.com <br />
+                日本語はこちら c.uemura@kizen0428.com
+              </h5>
+              <p>
+                please contact us your query <br />
+                どちらも日本語対応可能です
+              </p>
+            </span>
+          </div>
+        </div>
+        <div class="contact-col">
+          <form action="form-handler.php" method="post">
+            <input
+              type="text"
+              name="name"
+              placeholder="Enter your name"
+              required
+            />
+            <input
+              type="e-mail"
+              name="email"
+              placeholder="Enter email address"
+              required
+            />
+            <input
+              type=""
+              name="subject"
+              placeholder="Enter your subject"
+              required
+            />
+            <textarea
+              rows="8"
+              name="message"
+              placeholder="Message"
+              required
+            ></textarea>
+            <button type="submit" class="hero-btn red-btn">Send Message</button>
+          </form>
+        </div>
       </div>
-      <div>
-        <i class="fa fa-phone"> </i>
-        <span>
-          <h5>+81 054 264 6454</h5>
-          <p>Monday to Saturday, 10AM to 6PM Japan-time</p>
-        </span>
-      </div>
-      <div>
-        <i class="fa fa-envelope-o"> </i>
-        <span>
-          <h5>
-            For English sakura@kizen0428.com <br />
-            For japanese c.uemura@kizen0428.com
-          </h5>
-          <p>どちらも日本語対応可能です。<br>
-          please contact us your query </p>
-        </span>
-      </div>
-    </div>
-    <div class="contact-col">
-      <form action="form-handler.php" method="post">
-        <input type="text" name="name" placeholder="Enter your name" required>
-        <input type="e-mail" name="email" placeholder="Enter email address" required>
-        <input type="" name="subject" placeholder="Enter your subject" required>
-        <textarea rows="8" name="message" placeholder="Message" required></textarea>
-        <button type="submit" class="hero-btn red-btn">Send Message</button>
-      </form>
-    </div>
-  </div>
-</section>
+    </section>
+
 
 
 
@@ -203,8 +226,8 @@
 
 
     <footer class="footer">
-      <h4>Contact us</h4>
-      <p>map</p>
+      <h4>KiZen</h4>
+      <p>己禅</p>
 
       <div class="icon">
         <i class="fa fa-facebook"> </i>
@@ -212,7 +235,7 @@
         <i class="fa fa-twitter"> </i>
         <i class="fa fa-linkedin"> </i>
       </div>
-      <p>Made by <i class="fa fa-heart-o"></i>KiZen</p>
+      <p>Made by KiZen</p>
     </footer>
 
     <!-- the start script  -->
