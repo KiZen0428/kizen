@@ -194,13 +194,14 @@ p {
 }
 .row {
   margin: 5%;
+  
   display: flex;
   justify-content: space-between;
 }
 
 .course-col {
   flex-basis: 15%;
-  background: #fff3f3;
+  background: #9a8a90;
   border-radius: 10px;
   margin-bottom: 5%;
   padding: 20px 12px;
@@ -210,7 +211,7 @@ p {
 }
 
 .course-col:hover {
-  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 25px 0px rgba(0, 0, 0, 0.5);
 }
 
 h3 {
@@ -301,15 +302,6 @@ h3 {
 }
 
 /* contact us  */
-.location {
-  width: 80%;
-  margin: auto;
-  padding: 80px 0;
-}
-
-.location iframe {
-  width: 100%;
-}
 
 @media (max-width: 999px) {
   .row {
@@ -372,7 +364,7 @@ h3 {
 
 .location {
   width: 80%;
-  margin: 0 20 0 20;
+  margin: auto;
   padding: 80px 0;
 }
 
@@ -411,7 +403,7 @@ h3 {
 }
 
 .contact-col div h5 {
-  font-size: 20px;
+  font-size: 16px;
   margin-bottom: 5px;
   color: #555;
   font-weight: 400;
