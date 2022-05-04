@@ -200,6 +200,7 @@ a:hover {
 
 .kago .product-col  img {
 width: 100%;
+justify-content: center;
 }
 
 .kago h3 {

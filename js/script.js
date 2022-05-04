@@ -23,6 +23,7 @@ class MobileNavbar {
     this.animateLinks();
   }
   addClickEvent() {
+    this.navList.addEventListener("click", this.handleClick);
     this.mobileMenu.addEventListener("click", this.handleClick);
   }
   init() {
