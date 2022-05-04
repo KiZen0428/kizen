@@ -30,6 +30,7 @@ nav img {
 .nav-list {
   list-style: none;
   display: flex;
+  
 }
 .nav-list li {
   letter-spacing: 3px;
@@ -337,6 +338,8 @@ h3 {
   }
   .mobile-menu {
     display: block;
+    
+
   }
 
   .nav-list.active {
@@ -422,3 +425,61 @@ h3 {
   border: 1px solid #ccc;
   box-sizing: border-box;
 }
+
+
+
+
+
+
+
+
+/* About us start */
+
+.about-us{
+  background-color: #fff;
+  width: 80%;
+  font-size: 15px;
+  
+}
+.grad-wrap {
+  font-size: 15px;
+}
+.grad-btn {
+  background-color: #555;
+}
+.grad-btn::before {
+  content: "続きを読む"
+}
+.grad-item {
+  position: relative;
+  overflow: hidden;
+  
+  height: 80px; }
+
+.grad-item::before {
+  display: block;
+  
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 120px;
+  background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.9) 50%, rgba(255,255,255,0.9) 50%, #fff 100%);
+  background: linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.9) 50%, rgba(255,255,255,0.9) 50%, #fff 100%);
+  content: "";
+}
+.grad-trigger {
+  display: none; 
+  
+}
+.grad-trigger:checked ~ .grad-btn::before {
+  content: "閉じる" 
+}
+.grad-trigger:checked ~ .grad-item {
+  height: auto; 
+}
+.grad-trigger:checked ~ .grad-item::before {
+  display: none; 
+  
+}
+
