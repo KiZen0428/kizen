@@ -445,10 +445,12 @@ h3 {
   font-size: 15px;
 }
 .grad-btn {
-  background-color: #555;
+  background-color: rgb(206, 201, 201);
 }
 .grad-btn::before {
-  content: "続きを読む"
+  content: "Read More";
+  padding: 12px;
+  margin: 5px;
 }
 .grad-item {
   position: relative;
