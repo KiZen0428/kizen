@@ -225,11 +225,11 @@ h3 {
   margin: 10px;
 }
 
-.campus {
+.about-us {
   background: #fff;
   width: 80%;
   margin: auto;
-  text-align: center;
+  text-align: left;
   padding-top: 50px;
 }
 
@@ -435,12 +435,7 @@ h3 {
 
 /* About us start */
 
-.about-us{
-  background-color: #fff;
-  width: 80%;
-  font-size: 15px;
-  
-}
+
 .grad-wrap {
   font-size: 15px;
 }
@@ -448,7 +443,7 @@ h3 {
   background-color: rgb(206, 201, 201);
 }
 .grad-btn::before {
-  content: "Read More";
+  content: "<<<<Read More>>>>";
   padding: 12px;
   margin: 5px;
 }
@@ -475,7 +470,7 @@ h3 {
   
 }
 .grad-trigger:checked ~ .grad-btn::before {
-  content: "閉じる" 
+  content: ">>>>close<<<<" 
 }
 .grad-trigger:checked ~ .grad-item {
   height: auto; 
