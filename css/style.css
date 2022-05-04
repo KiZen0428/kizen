@@ -185,10 +185,10 @@ a:hover {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  
+
 }
 
-.kago .product-col  {
+.kago .product-col {
   height: 100%;
   width: 100%;
   flex-basis: 32%;
@@ -198,9 +198,9 @@ a:hover {
   overflow: hidden;
 }
 
-.kago .product-col  img {
-width: 100%;
-justify-content: center;
+.kago .product-col img {
+  width: 100%;
+  justify-content: center;
 }
 
 .kago h3 {
@@ -310,15 +310,24 @@ justify-content: center;
 
 .trip-pic {
   flex-basis: 32%;
-  background: #9a8a90;
+  background: #fff;
   border-radius: 10px;
+
+  padding-top: 10px;
   margin-bottom: 5%;
-  
-  box-sizing: border-box;
-  transition: 0.5s;
+
+
+  text-align: center;
+
   cursor: pointer;
 
 
+}
+
+.trip-img {
+  
+text-align: center;
+top: 50px;
 }
 
 .trip-pic:hover {
@@ -427,6 +436,7 @@ justify-content: center;
 /* contact us  */
 
 @media (max-width: 999px) {
+
   .kago,
   .row {
     flex-direction: column;
