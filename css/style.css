@@ -181,12 +181,25 @@ a:hover {
 .kago {
   margin: 5%;
   padding: 2.5% 0;
-
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-
   justify-content: space-between;
+  
+}
+
+.kago .product-col  {
+  height: 100%;
+  width: 100%;
+  flex-basis: 32%;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+}
+
+.kago .product-col  img {
+width: 100%;
 }
 
 .kago h3 {
@@ -295,11 +308,11 @@ a:hover {
 
 
 .trip-pic {
-  flex-basis: 15%;
+  flex-basis: 32%;
   background: #9a8a90;
   border-radius: 10px;
   margin-bottom: 5%;
-  padding: 20px 12px;
+  
   box-sizing: border-box;
   transition: 0.5s;
   cursor: pointer;
@@ -358,7 +371,7 @@ a:hover {
 }
 
 .grad-trigger:checked~.grad-btn::before {
-  content: "----close----"
+  content: "----Close----"
 }
 
 .grad-trigger:checked~.grad-item {
@@ -413,6 +426,7 @@ a:hover {
 /* contact us  */
 
 @media (max-width: 999px) {
+  .kago,
   .row {
     flex-direction: column;
   }
