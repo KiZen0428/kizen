@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -13,6 +14,7 @@
   background-size: cover;
   position: relative;
 }
+
 /* our nav element start */
 nav {
   display: flex;
@@ -22,6 +24,7 @@ nav {
   background: transparent;
   height: 8vh;
 }
+
 nav img {
   height: 200px;
   padding-top: 2.5rem;
@@ -30,16 +33,19 @@ nav img {
 .nav-list {
   list-style: none;
   display: flex;
-  
+
 }
+
 .nav-list li {
   letter-spacing: 3px;
   margin-left: 48px;
 }
+
 .mobile-menu {
   cursor: pointer;
   display: none;
 }
+
 .mobile-menu div {
   width: 32px;
   height: 2px;
@@ -48,39 +54,6 @@ nav img {
   transition: 0.3s;
 }
 
-.text-box {
-  width: 90%;
-  color: #fff;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, 50%);
-  text-align: center;
-}
-.text-box h1 {
-  font-size: 62px;
-}
-
-.text-box p {
-  font-size: 30px;
-  color: #fff;
-}
-
-/* our line up style sheet */
-.line-up .box-contaner {
-  list-style-type: none;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
-  gap: 1.5rem;
-}
-.line-up .box-contaner .box {
-  padding: 5rem;
-  text-align: center;
-}
-
-.line-up .box-contaner .img {
-  height: 10rem;
-}
 
 a {
   /* color of the element  */
@@ -126,11 +99,13 @@ a:hover {
   0% {
     transform: scale(0);
   }
+
   100% {
     transform: scale(2);
     opacity: 0;
   }
 }
+
 .btnripple3 {
   position: relative;
   display: inline-block;
@@ -165,14 +140,19 @@ a:hover {
   z-index: -1;
 }
 
-.about-us {
-  width: 75%;
-  margin: auto;
-  text-align: center;
-}
 
-/* new section */
-.course {
+
+
+
+
+
+
+
+
+/* product section */
+
+
+.product {
   width: 80%;
   margin: auto;
   text-align: center;
@@ -181,59 +161,16 @@ a:hover {
   color: #000;
 }
 
-h1 {
-  font-size: 36px;
-  font-weight: 600;
-}
-
-p {
-  color: #000;
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 22px;
-  padding: 10px;
-}
-.row {
-  margin: 5%;
-  padding: 2.5% 0;
-  padding: 2.5% 0;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  
-  justify-content: space-between;
-}
-
-.course-col {
-  flex-basis: 15%;
-  background: #9a8a90;
-  border-radius: 10px;
-  margin-bottom: 5%;
-  padding: 20px 12px;
-  box-sizing: border-box;
-  transition: 0.5s;
-  cursor: pointer;
-}
-
-.course-col:hover {
-  box-shadow: 0 0 25px 0px rgba(0, 0, 0, 0.5);
-}
-
-h3 {
-  text-align: center;
-  font-weight: 600;
-  margin: 10px;
-}
-
-.about-us {
-  background: #fff;
-  width: 80%;
+.product h1 {
   margin: auto;
-  text-align: left;
-  padding-top: 50px;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  text-align: center;
+  font-size: 40px;
 }
 
-.campus-col {
+
+.product-col {
   flex-basis: 32%;
   border-radius: 10px;
   margin-bottom: 30px;
@@ -241,9 +178,40 @@ h3 {
   overflow: hidden;
 }
 
-.campus-col img {
-  width: 100%;
+.kago {
+  margin: 5%;
+  padding: 2.5% 0;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  justify-content: space-between;
 }
+
+.kago h3 {
+  text-align: center;
+  font-weight: 600;
+  margin: 10px;
+}
+
+
+.line-up .box-contaner {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
+  gap: 1.5rem;
+}
+
+.line-up .box-contaner .box {
+  padding: 5rem;
+  text-align: center;
+}
+
+.line-up .box-contaner .img {
+  height: 10rem;
+}
+
 
 .layer {
   background: transparent;
@@ -277,6 +245,142 @@ h3 {
   bottom: 49%;
   opacity: 1;
 }
+
+.square_content {
+  max-width: 400px;
+}
+
+.square_content div {
+  width: 50%;
+  padding-top: 50%;
+  background: #ffb6c1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* About us start */
+
+
+.about-us {
+  background: #fff;
+  width: 80%;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.about-us h1 {
+  text-align: center;
+}
+
+
+
+.note {
+  margin: 10px;
+  text-align: left;
+}
+
+
+.trip-pic {
+  flex-basis: 15%;
+  background: #9a8a90;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  cursor: pointer;
+
+
+}
+
+.trip-pic:hover {
+  box-shadow: 0 0 25px 0px rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+.grad-wrap {
+  font-size: 15px;
+  text-align: center;
+
+}
+
+.grad-btn {
+  background-color: rgb(206, 201, 201);
+
+}
+
+.grad-btn::before {
+  content: "----Read More----";
+  padding: 12px;
+  margin: 5px;
+
+}
+
+.grad-item {
+  position: relative;
+  overflow: hidden;
+  height: 80px;
+}
+
+.grad-item::before {
+  display: block;
+
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 120px;
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.9) 50%, rgba(255, 255, 255, 0.9) 50%, #fff 100%);
+  background: linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.9) 50%, rgba(255, 255, 255, 0.9) 50%, #fff 100%);
+  content: "";
+}
+
+.grad-trigger {
+  display: none;
+
+}
+
+.grad-trigger:checked~.grad-btn::before {
+  content: "----close----"
+}
+
+.grad-trigger:checked~.grad-item {
+  height: auto;
+}
+
+.grad-trigger:checked~.grad-item::before {
+  display: none;
+
+}
+
+/* about finish */
+
+
+
+
+
+
+
+
+
+
 
 .footer {
   color: rgb(11, 11, 11);
@@ -318,6 +422,7 @@ h3 {
   body {
     overflow-x: hidden;
   }
+
   .nav-list {
     position: fixed;
     top: 8vh;
@@ -332,24 +437,28 @@ h3 {
     transform: translateX(100%);
     transition: transform 0.4s ease-in;
   }
+
   .nav-list li {
     margin-left: 0px;
     opacity: 0;
   }
+
   .mobile-menu {
     display: block;
-    
+
 
   }
 
   .nav-list.active {
     transform: translateX(0);
   }
+
   @keyframes navLinkFade {
     from {
       opacity: 0;
       transform: translateX(50px);
     }
+
     to {
       opacity: 1;
       transform: translateX(0);
@@ -359,9 +468,11 @@ h3 {
   .mobile-menu.active .line1 {
     transform: rotate(-45deg) translate(-8px, 8px);
   }
+
   .mobile-menu.active .line2 {
     opacity: 1;
   }
+
   .mobile-menu.active .line3 {
     transform: rotate(45deg) translate(-5px, -7px);
   }
@@ -425,58 +536,3 @@ h3 {
   border: 1px solid #ccc;
   box-sizing: border-box;
 }
-
-
-
-
-
-
-
-
-/* About us start */
-
-
-.grad-wrap {
-  font-size: 15px;
-}
-.grad-btn {
-  background-color: rgb(206, 201, 201);
-}
-.grad-btn::before {
-  content: "<<<<Read More>>>>";
-  padding: 12px;
-  margin: 5px;
-}
-.grad-item {
-  position: relative;
-  overflow: hidden;
-  
-  height: 80px; }
-
-.grad-item::before {
-  display: block;
-  
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 120px;
-  background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.9) 50%, rgba(255,255,255,0.9) 50%, #fff 100%);
-  background: linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.9) 50%, rgba(255,255,255,0.9) 50%, #fff 100%);
-  content: "";
-}
-.grad-trigger {
-  display: none; 
-  
-}
-.grad-trigger:checked ~ .grad-btn::before {
-  content: ">>>>close<<<<" 
-}
-.grad-trigger:checked ~ .grad-item {
-  height: auto; 
-}
-.grad-trigger:checked ~ .grad-item::before {
-  display: none; 
-  
-}
-
