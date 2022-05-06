@@ -291,9 +291,11 @@ a:hover {
 
 .about-us {
   background: #fff;
-  width: 80%;
+  width: 75%;
   margin: auto;
-  padding-top: 50px;
+  padding-top: 70px;
+  text-align: center;
+  padding: 40px;
 }
 
 .about-us h1 {
@@ -315,7 +317,6 @@ a:hover {
 
   padding-top: 10px;
   margin-bottom: 5%;
-
 
   text-align: center;
 
