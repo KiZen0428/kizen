@@ -170,8 +170,30 @@ a:hover {
   position: relative;
   overflow: hidden;
 }
+
+.kago {
+  margin: 5%;
+  padding: 2.5% 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.kago .product-col {
+  height: 100%;
+  width: 100%;
+  flex-basis: 32%;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+}
+
 .kago .product-col img {
   width: 100%;
+  justify-content: center;
 }
 
 .kago h3 {
@@ -245,9 +267,11 @@ a:hover {
 
 .about-us {
   background: #fff;
-  width: 80%;
+  width: 75%;
   margin: auto;
-  padding-top: 50px;
+  padding-top: 70px;
+  text-align: center;
+  padding: 40px;
 }
 
 .about-us h1 {
@@ -261,16 +285,25 @@ a:hover {
 
 .trip-pic {
   flex-basis: 32%;
-  background: #9a8a90;
+  background: #fff;
   border-radius: 10px;
+
+  padding-top: 10px;
   margin-bottom: 5%;
-  box-sizing: border-box;
-  transition: 0.5s;
+
+  text-align: center;
+
   cursor: pointer;
 }
 .trip-pic img {
   
   width: 80;
+}
+
+.trip-img {
+  
+text-align: center;
+top: 50px;
 }
 
 .trip-pic:hover {
@@ -327,8 +360,8 @@ a:hover {
   display: none;
 }
 
-.grad-trigger:checked ~ .grad-btn::before {
-  content: '----close----';
+.grad-trigger:checked~.grad-btn::before {
+  content: "----Close----"
 }
 
 .grad-trigger:checked ~ .grad-item {
