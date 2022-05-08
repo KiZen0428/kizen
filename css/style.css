@@ -6,8 +6,8 @@
   font-family: 'Noto Serif JP', serif;
   scroll-behavior: smooth;
 }
-h3{
-  color:#000
+h3 {
+  color: #000;
 }
 .header {
   min-height: 100vh;
@@ -416,9 +416,9 @@ a:hover {
     overflow-x: hidden;
   }
   nav {
-    position:fixed;
-    z-index:99;
-    width:90%;
+    position: fixed;
+    z-index: 99;
+    width: 90%;
   }
   .nav-list {
     position: fixed;
