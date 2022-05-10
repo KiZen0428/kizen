@@ -525,6 +525,20 @@ a:hover {
     max-height: 161px;
     height: auto;
   }
+  .collection__ttl {
+    display: flex;
+    position: relative;
+    top: auto;
+    margin-bottom: 4%;
+    writing-mode: horizontal-tb;
+    justify-content: right;
+    text-align: center;
+    background-color: red;
+  }
+  .collection__ttl-en,
+  .collection__ttl-ja {
+    position: relative;
+  }
 }
 @media screen and (max-width: 900px) {
   .collection__inner {
