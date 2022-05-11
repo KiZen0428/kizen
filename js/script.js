@@ -39,6 +39,18 @@ const mobileNavbar = new MobileNavbar(
 );
 mobileNavbar.init();
 
+
+
+
+
+
+
+
+
+
+
+
+
 // animation
 
 var windowwidth =
