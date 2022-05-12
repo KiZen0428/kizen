@@ -247,9 +247,9 @@ a:hover {
 }
 
 .all_note {
-  background-image: url("../images/kimono\ nishijin.jpg");
   
-  /* z-index: -1; */
+  
+  z-index: -1;
   
 }
 
