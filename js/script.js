@@ -58,25 +58,25 @@ var windowwidth =
 if (windowwidth > 768) {
   var responsiveImage = [
     {
-      src: 'https://github.com/KiZen0428/kizen/blob/main/images/ie.jpg?raw=true',
+      src: "https://github.com/KiZen0428/kizen/blob/main/images/ie.jpg?raw=true",
     },
     {
-      src: 'https://github.com/KiZen0428/kizen/blob/main/images/image3.jpg?raw=true',
+      src: "https://github.com/KiZen0428/kizen/blob/main/images/image3.jpg?raw=true",
     },
     {
-      src: 'https://github.com/KiZen0428/kizen/blob/main/images/tea.jpg?raw=true',
+      src: "https://images.unsplash.com/photo-1575487426366-079595af2247?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
     },
   ];
 } else {
   var responsiveImage = [
     {
-      src: 'https://github.com/KiZen0428/kizen/blob/main/images/ie.jpg?raw=true',
+      src: "https://github.com/KiZen0428/kizen/blob/main/images/ie.jpg?raw=true",
     },
     {
-      src: 'https://github.com/KiZen0428/kizen/blob/main/images/image3.jpg?raw=true',
+      src: "https://github.com/KiZen0428/kizen/blob/main/images/image3.jpg?raw=true",
     },
     {
-      src: 'https://github.com/KiZen0428/kizen/blob/main/images/tea.jpg?raw=true',
+      src: "https://images.unsplash.com/photo-1575487426366-079595af2247?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
     },
   ];
 }
