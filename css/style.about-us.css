@@ -27,7 +27,7 @@
 
 /* hidding navi start */
 #home {
-  padding: 30%;
+  padding: 20%;
 }
 .header {
   position: fixed;
@@ -206,8 +206,6 @@ a:hover {
   color: rgb(0, 0, 0);
 }
 
-
-
 /* 2page about us start */
 
 .navbar2 {
@@ -238,7 +236,6 @@ a:hover {
 .note2 {
   text-align: left;
   padding: 0 8rem 0 35rem;
-  
 }
 
 .note3 {
@@ -246,31 +243,17 @@ a:hover {
   padding: 0 35rem 20rem 8rem;
 }
 
-.all_note {
-  
-  
-  z-index: -1;
-  
-}
 
 .all_note span {
   font-size: 25px;
-  
 }
 
 .all_note p {
   color: black;
   z-index: 9;
-  
-  
 }
 
 /* 2page about us finish */
-
-
-
-
-
 
 .layer {
   background: transparent;
