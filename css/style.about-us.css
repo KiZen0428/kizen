@@ -243,7 +243,7 @@ a:hover {
 .note2 {
   text-align: left;
   padding: 0 8rem 0 35rem;
-  
+
 
 }
 
@@ -261,12 +261,12 @@ a:hover {
   /* position: absolute; */
   top: 0;
   left: 0;
+  
 
-  /*背景画像の設定*/
   background-image: url(/images/En\ japanese.png);
   background-size: cover;
 
-  /*透過の設定*/
+
   opacity: 0.5;
 }
 
