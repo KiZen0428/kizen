@@ -520,7 +520,7 @@ a:hover {
 }
 
 .collection__item--3 a:hover {
-  background-image: url(' https://github.com/KiZen0428/kizen/blob/main/images/rain-yan-M9NTnUlNiEM-unsplash.jpg?raw=true');
+  background-image: url(' https://images.unsplash.com/photo-1632790929202-a79cd10d9076?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80');
   transition: height 0.5s ease-in-out, box-shadow 0.6s linear;
   z-index: 10;
   background-repeat: no-repeat;

@@ -143,6 +143,27 @@ a {
   transition: 0.2s;
 }
 
+
+
+
+
+
+
+
+.collection__ttl-ja {
+  font-size: 20px;
+  white-space: nowrap;
+  overflow: visible;
+}
+
+
+
+
+
+
+
+
+
 a:hover {
   opacity: 2;
 }
