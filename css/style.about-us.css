@@ -27,7 +27,7 @@
 
 /* hidding navi start */
 #home {
-  padding: 30%;
+  padding: 20%;
 }
 
 .header {
@@ -237,21 +237,17 @@ a:hover {
 
 .tittle span {
   color: #d60d0d;
-
 }
 
 .note2 {
   text-align: left;
   padding: 0 8rem 0 35rem;
-
-
 }
 
 .note3 {
   text-align: left;
   padding: 0 35rem 20rem 8rem;
 }
-
 .all_note {
 
   color: black;
@@ -261,29 +257,20 @@ a:hover {
   /* position: absolute; */
   top: 0;
   left: 0;
-  
 
   background-image: url(/images/En\ japanese.png);
   background-size: cover;
 
-
   opacity: 0.5;
 }
-
 .all_note span {
   font-size: 25px;
-
 }
-
-
-
 
 /* 2page about us finish */
 
 
-
-
-
+/* 2page about us finish */
 
 .layer {
   background: transparent;
