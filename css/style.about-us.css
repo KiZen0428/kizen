@@ -266,14 +266,25 @@ a:hover {
 
 .note3 {
   text-align: left;
-  padding: 0 35rem 20rem 8rem;
+  padding: 0 35rem 0rem 8rem;
 }
 
+
+.note4{
+  text-align: left;
+  padding: 0 8rem 0 35rem;
+}
+
+
 .all_note {
-  margin: 0px;
+  
   display: flex;
   flex-wrap: wrap;
   background-image: url("../images/En\ japanese.png");
+background-size:contain;
+background-repeat: repeat;
+background-color:rgba(255, 255, 255, 0.6);
+background-blend-mode:lighten;
 }
 
 .all_note span {
@@ -307,6 +318,7 @@ a:hover {
   width: 100%;
   font-weight: 500;
   color: #fff;
+  
   font-size: 26px;
   bottom: 0;
   left: 50%;
@@ -362,6 +374,11 @@ a:hover {
   .btnripple3 {
     color: #23232e;
   }
+.btnripple8 {
+  font-weight: bold;
+  color: #fff;
+}
+
 }
 
 @media (max-width: 999px) {
@@ -372,15 +389,23 @@ a:hover {
   .all_note .note2 {
     padding-top: 0;
     padding-right: 6rem;
-    padding-left: 1rem;
+    padding-left: 4rem;
+    padding-bottom: 30px;
   }
 
   .all_note .note3 {
     padding-top: 0;
-    padding-right: 4rem;
+    padding-right: 6rem;
     padding-left: 4rem;
     padding-bottom: 30px;
-    text-align: right;
+    
+  }
+  .all_note .note4 {
+    padding-top: 0;
+    padding-right: 6rem;
+    padding-left: 4rem;
+    padding-bottom: 30px;
+    
   }
 }
 

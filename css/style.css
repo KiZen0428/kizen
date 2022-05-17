@@ -157,6 +157,7 @@ nav img {
 a {
   /* color of the element  */
   color: rgb(255, 255, 255);
+  
   text-decoration: none;
   transition: 0.2s;
 }
@@ -168,10 +169,10 @@ a:hover {
 /* navi's effect 波紋 */
 .btnripple3 {
   position: relative;
-
+font-weight: bolder;
   display: inline-block;
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: #fff;
   outline: none;
 }
 
@@ -181,7 +182,7 @@ a:hover {
   position: absolute;
   left: 30%;
   top: 0;
-
+  
   border: 1px solid rgb(255, 255, 255);
   width: 60px;
   height: 60px;
@@ -370,6 +371,7 @@ a:hover {
   width: 100%;
   font-weight: 500;
   color: #fff;
+  
   font-size: 26px;
   bottom: 0;
   left: 50%;
@@ -651,10 +653,13 @@ a:hover {
   .nav-list li {
     margin-left: 0px;
     opacity: 0;
+    
   }
 
   .mobile-menu {
     display: block;
+    color: #fff;
+    font-weight: bold;
   }
 
   .nav-list.active {
