@@ -238,6 +238,8 @@ a:hover {
   display: flex;
 }
 
+
+
 .row {
   margin: 3%;
   display: flex;
@@ -375,6 +377,7 @@ background-repeat: no-repeat;
   .row {
     flex-direction: column;
     margin: 0px;
+    min-width: 420px;
   }
 
   .btnripple3 {
