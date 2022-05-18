@@ -555,6 +555,7 @@ a:hover {
   font-size: 25px;
   letter-spacing: 0.3em;
   line-height: 30px;
+  height: 500px;
 }
 
 
@@ -586,6 +587,10 @@ a:hover {
   .collection__ttl-en,
   .collection__ttl-ja {
     position: relative;
+    
+  }
+  .collection__ttl-ja{
+    height: 50px;
   }
 }
 
