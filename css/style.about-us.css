@@ -280,13 +280,19 @@ a:hover {
   
   display: flex;
   flex-wrap: wrap;
-  background-image: url("../images/En\ japanese.png");
-background-size:contain;
-background-repeat: repeat;
+  
 background-color:rgba(255, 255, 255, 0.6);
 background-blend-mode:lighten;
 }
 
+@media (min-width:600px )
+{
+  .all_note{
+background-image: url("../images/En\ japanese.png");
+background-size:contain;
+background-repeat: no-repeat;
+  }
+}
 .all_note span {
   font-size: 2em;
 }
