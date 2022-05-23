@@ -333,6 +333,10 @@ a:hover {
   .btnripple3 {
     color: #23232e;
   }
+  .btnripple8 {
+    font-weight: bold;
+    color: #fff;
+  }
 }
 @media (max-width: 999px) {
   .all_note {
@@ -365,8 +369,8 @@ a:hover {
   }
 
   .nav-list {
-    z-index: 99;
     position: fixed;
+    z-index: 99;
     top: 10vh;
     right: 0;
     width: 100vw;
