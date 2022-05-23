@@ -37,6 +37,7 @@ html {
   justify-content: center;
   align-items: center;
 }
+
 #home h1,
 h2 {
   font-weight: bold;
@@ -46,6 +47,7 @@ h2 {
   letter-spacing: 0.2rem;
   text-align: center;
 }
+
 #home h2 {
   font-size: 1.5rem;
 }
@@ -159,6 +161,7 @@ nav img {
 a {
   /* color of the element  */
   color: rgb(255, 255, 255);
+
   text-decoration: none;
   transition: 0.2s;
 }
@@ -170,10 +173,10 @@ a:hover {
 /* navi's effect 波紋 */
 .btnripple3 {
   position: relative;
-
+  font-weight: bolder;
   display: inline-block;
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: #fff;
   outline: none;
 }
 
@@ -198,6 +201,7 @@ a:hover {
   0% {
     transform: scale(0);
   }
+
   100% {
     transform: scale(2);
     opacity: 0;
@@ -231,6 +235,7 @@ a:hover {
 #line-up {
   margin-top: 0%;
 }
+
 .product {
   width: 80%;
   margin: auto;
@@ -323,48 +328,6 @@ a:hover {
 
 /* aboutus 1page finish */
 
-/* 2page about us start */
-
-.navbar2 {
-  background-color: rgb(255, 254, 254);
-
-  margin: 3%;
-  display: flex;
-}
-
-.row {
-  margin: 3%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  background-color: #fff;
-}
-
-.tittle {
-  margin: 5rem;
-  padding: 5rem;
-  font-size: 40px;
-}
-
-.tittle span {
-  color: #d60d0d;
-}
-
-.note2 {
-  text-align: left;
-  padding: 0 8rem 0 35rem;
-}
-
-.note3 {
-  text-align: left;
-  padding: 0 35rem 20rem 8rem;
-}
-
-.all_note span {
-  font-size: 25px;
-}
-
-/* 2page about us finish */
 
 /* trip-img start */
 
@@ -414,6 +377,7 @@ a:hover {
   width: 100%;
   font-weight: 500;
   color: #fff;
+
   font-size: 26px;
   bottom: 0;
   left: 50%;
@@ -548,7 +512,7 @@ a:hover {
 }
 
 .collection__item--1 a:hover {
-  background-image: url('../ima');
+  background-image: url(' https://github.com/KiZen0428/kizen/blob/main/images/kimono%20nishijin.jpg?raw=true');
   transition: height 0.5s ease-in-out, box-shadow 0.6s linear;
   z-index: 10;
   background-repeat: no-repeat;
@@ -564,7 +528,7 @@ a:hover {
 }
 
 .collection__item--3 a:hover {
-  background-image: url(' https://github.com/KiZen0428/kizen/blob/main/images/rain-yan-M9NTnUlNiEM-unsplash.jpg?raw=true');
+  background-image: url(' https://images.unsplash.com/photo-1632790929202-a79cd10d9076?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80');
   transition: height 0.5s ease-in-out, box-shadow 0.6s linear;
   z-index: 10;
   background-repeat: no-repeat;
@@ -587,17 +551,15 @@ a:hover {
   padding-left: 10px;
 }
 
-.collection__item--1 .collection__ttl-ja {
-  letter-spacing: 0.2em;
-}
 
 .collection__ttl-ja {
   font-weight: 600;
   font-size: 25px;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.3em;
   line-height: 30px;
-  height: 300px;
+  height: 500px;
 }
+
 
 .collection__img {
   margin-bottom: 27px;
@@ -627,6 +589,10 @@ a:hover {
   .collection__ttl-en,
   .collection__ttl-ja {
     position: relative;
+    
+  }
+  .collection__ttl-ja{
+    height: 50px;
   }
 }
 
@@ -696,10 +662,13 @@ a:hover {
   .nav-list li {
     margin-left: 0px;
     opacity: 0;
+
   }
 
   .mobile-menu {
     display: block;
+    color: #fff;
+    font-weight: bold;
   }
 
   .nav-list.active {

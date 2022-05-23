@@ -29,6 +29,7 @@
 #home {
   padding: 20%;
 }
+
 .header {
   position: fixed;
   /* position: relative; */
@@ -142,6 +143,27 @@ a {
   transition: 0.2s;
 }
 
+
+
+
+
+
+
+
+.collection__ttl-ja {
+  font-size: 20px;
+  white-space: nowrap;
+  overflow: visible;
+}
+
+
+
+
+
+
+
+
+
 a:hover {
   opacity: 2;
 }
@@ -177,6 +199,7 @@ a:hover {
   0% {
     transform: scale(0);
   }
+
   100% {
     transform: scale(2);
     opacity: 0;
@@ -215,18 +238,23 @@ a:hover {
   display: flex;
 }
 
+
+
 .row {
   margin: 3%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   background-color: #fff;
+  
 }
 
 .tittle {
   margin: 5rem;
   padding: 5rem;
   font-size: 40px;
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
 }
 
 .tittle span {
@@ -237,17 +265,36 @@ a:hover {
   text-align: left;
   padding: 0 8rem 0 35rem;
 }
+
 .note3 {
   text-align: left;
-  padding: 0 35rem 20rem 8rem;
+  padding: 0 35rem 0rem 8rem;
 }
+
+
+.note4{
+  text-align: left;
+  padding: 0 8rem 0 35rem;
+}
+
 
 .all_note {
-  margin: 0px;
+  
   display: flex;
   flex-wrap: wrap;
+  
+background-color:rgba(255, 255, 255, 0.6);
+background-blend-mode:lighten;
 }
 
+@media (min-width:600px )
+{
+  .all_note{
+background-image: url("../images/En\ japanese.png");
+background-size:contain;
+background-repeat: no-repeat;
+  }
+}
 .all_note span {
   font-size: 2em;
 }
@@ -279,6 +326,7 @@ a:hover {
   width: 100%;
   font-weight: 500;
   color: #fff;
+  
   font-size: 26px;
   bottom: 0;
   left: 50%;
@@ -329,32 +377,47 @@ a:hover {
   .row {
     flex-direction: column;
     margin: 0px;
+    min-width: 420px;
   }
+
   .btnripple3 {
     color: #23232e;
   }
-  .btnripple8 {
-    font-weight: bold;
-    color: #fff;
-  }
+.btnripple8 {
+  font-weight: bold;
+  color: #fff;
 }
+
+}
+
 @media (max-width: 999px) {
   .all_note {
     margin: 10px;
   }
+
   .all_note .note2 {
     padding-top: 0;
     padding-right: 6rem;
-    padding-left: 1rem;
-  }
-  .all_note .note3 {
-    padding-top: 0;
-    padding-right: 4rem;
     padding-left: 4rem;
     padding-bottom: 30px;
-    text-align: right;
+  }
+
+  .all_note .note3 {
+    padding-top: 0;
+    padding-right: 6rem;
+    padding-left: 4rem;
+    padding-bottom: 30px;
+    
+  }
+  .all_note .note4 {
+    padding-top: 0;
+    padding-right: 6rem;
+    padding-left: 4rem;
+    padding-bottom: 30px;
+    
   }
 }
+
 @media (max-width: 999px) {
   body {
     overflow-x: hidden;
