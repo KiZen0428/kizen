@@ -837,3 +837,22 @@ a:hover {
   border: 1px solid #ccc;
   box-sizing: border-box;
 }
+.contact-col button {
+  cursor: pointer;
+  border-radius: 1rem;
+  border: 1px solid rgb(11, 11, 11);
+  position: relative;
+  left: 0;
+}
+
+.contact-col button {
+  display: flex;
+  margin: auto;
+  cursor: pointer;
+  padding: 1rem;
+}
+
+.contact-col button:hover {
+  background: black;
+  color: #fff;
+}
