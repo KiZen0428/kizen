@@ -1,0 +1,3 @@
+.selected-lang::before {
+  background-image: url('../images/china.png');
+}
