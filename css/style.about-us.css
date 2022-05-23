@@ -143,26 +143,11 @@ a {
   transition: 0.2s;
 }
 
-
-
-
-
-
-
-
 .collection__ttl-ja {
   font-size: 20px;
   white-space: nowrap;
   overflow: visible;
 }
-
-
-
-
-
-
-
-
 
 a:hover {
   opacity: 2;
@@ -238,15 +223,12 @@ a:hover {
   display: flex;
 }
 
-
-
 .row {
   margin: 3%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   background-color: #fff;
-  
 }
 
 .tittle {
@@ -271,28 +253,24 @@ a:hover {
   padding: 0 35rem 0rem 8rem;
 }
 
-
-.note4{
+.note4 {
   text-align: left;
   padding: 0 8rem 0 35rem;
 }
 
-
 .all_note {
-  
   display: flex;
   flex-wrap: wrap;
-  
-background-color:rgba(255, 255, 255, 0.6);
-background-blend-mode:lighten;
+
+  background-color: rgba(255, 255, 255, 0.6);
+  background-blend-mode: lighten;
 }
 
-@media (min-width:600px )
-{
-  .all_note{
-background-image: url("../images/En\ japanese.png");
-background-size:contain;
-background-repeat: no-repeat;
+@media (min-width: 600px) {
+  .all_note {
+    background-image: url('../images/En\ japanese.png');
+    background-size: contain;
+    background-repeat: no-repeat;
   }
 }
 .all_note span {
@@ -326,7 +304,7 @@ background-repeat: no-repeat;
   width: 100%;
   font-weight: 500;
   color: #fff;
-  
+
   font-size: 26px;
   bottom: 0;
   left: 50%;
@@ -383,11 +361,10 @@ background-repeat: no-repeat;
   .btnripple3 {
     color: #23232e;
   }
-.btnripple8 {
-  font-weight: bold;
-  color: #fff;
-}
-
+  .btnripple8 {
+    font-weight: bold;
+    color: #fff;
+  }
 }
 
 @media (max-width: 999px) {
@@ -407,14 +384,12 @@ background-repeat: no-repeat;
     padding-right: 6rem;
     padding-left: 4rem;
     padding-bottom: 30px;
-    
   }
   .all_note .note4 {
     padding-top: 0;
     padding-right: 6rem;
     padding-left: 4rem;
     padding-bottom: 30px;
-    
   }
 }
 
@@ -432,8 +407,8 @@ background-repeat: no-repeat;
   }
 
   .nav-list {
-    position: fixed;
     z-index: 99;
+    position: fixed;
     top: 10vh;
     right: 0;
     width: 100vw;
