@@ -155,13 +155,13 @@ nav img {
   cursor: pointer;
   color: white;
   line-height: 2;
-  width: 100%;
+  width: 80%;
 }
 .selected-lang::before {
   content: '';
   display: block;
-  width: 3.2rem;
-  height: 3.2rem;
+  width: 3rem;
+  height: 3rem;
   background-image: url('https://www.japan-experience.com/sites/default/files/images/content_images/flag-a.jpg');
   background-size: contain;
   background-repeat: no-repeat;
@@ -192,9 +192,9 @@ nav img {
   justify-content: space-between;
 }
 .lang-menu ul li a {
-  width: 12.5rem;
+  width: 10rem;
   display: block;
-  padding: 0.5rem 1rem;
+  padding: 0.2rem 1rem;
 }
 .lang-menu ul li a:hover {
   background: #312f2f;
@@ -203,8 +203,8 @@ nav img {
   margin-right: 1rem;
   content: '';
   display: inline-block;
-  width: 3.2rem;
-  height: 3.2rem;
+  width: 3rem;
+  height: 3rem;
   vertical-align: middle;
   background-image: url('');
   background-size: contain;
@@ -220,6 +220,12 @@ nav img {
 .lang-menu .en::before {
   background-image: url('https://w0.peakpx.com/wallpaper/319/186/HD-wallpaper-uk-flag-english-gran-inglaterra-london-londres-reino-unido-united-kingdom.jpg');
 }
+
+
+
+
+
+
 .mobile-menu {
   cursor: pointer;
   display: none;
