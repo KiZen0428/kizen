@@ -62,7 +62,6 @@ h2 {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 1000;
 }
 .header .logo img {
   height: 2.5rem;
@@ -150,12 +149,14 @@ nav {
   margin: auto 1rem;
   position: relative;
   padding-bottom: 3rem;
+  cursor: pointer;
 }
 .header .selected-lang {
   position: relative;
   width: 90%;
   left: 1rem;
   padding: 0 1.5rem;
+  z-index: 100;
 }
 /* .selected-lang {
   padding: 1rem 0;
@@ -197,8 +198,8 @@ nav {
   border-radius: 0.5rem;
   display: none;
   position: absolute;
-  top: 6rem;
-  left: 0;
+  top: 7rem;
+  left: 1.5rem;
 }
 
 .lang-menu:hover ul {
