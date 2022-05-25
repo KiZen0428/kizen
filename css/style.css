@@ -52,6 +52,7 @@ h2 {
 }
 
 .header {
+  z-index: 10000;
   background: transparent;
   display: flex;
   align-items: center;
@@ -62,6 +63,13 @@ h2 {
   top: 0;
   left: 0;
   right: 0;
+}
+.header .logo {
+  margin: 0 2rem;
+  z-index: 101;
+}
+.header .logo :nth-child(2) {
+  display: none;
 }
 .header .logo img {
   height: 2.5rem;
@@ -151,11 +159,14 @@ nav {
   padding-bottom: 3rem;
   cursor: pointer;
 }
+.imga-container {
+  margin: auto;
+}
 .header .selected-lang {
   position: relative;
   width: 90%;
   left: 1rem;
-  padding: 0 1.5rem;
+  padding: 0;
   z-index: 100;
 }
 /* .selected-lang {
@@ -689,6 +700,9 @@ a:hover {
   .header {
     padding: 1.5rem 2rem;
   }
+  .header .selected-lang {
+    padding: 0 1.5rem;
+  }
 }
 
 @media screen and (max-width: 900px) {
@@ -804,6 +818,12 @@ a:hover {
   .mobile-menu {
     padding-left: 12rem;
   }
+  .header .logo :nth-child(1) {
+    display: none;
+  }
+  .header .logo :nth-child(2) {
+    display: flex;
+  }
 }
 @media screen and (max-width: 480px) {
   .about-us {
@@ -872,6 +892,7 @@ a:hover {
   box-sizing: border-box;
 }
 .contact-col button {
+  color: black;
   cursor: pointer;
   border-radius: 1rem;
   border: 1px solid rgb(11, 11, 11);
