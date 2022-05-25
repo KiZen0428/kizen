@@ -204,13 +204,14 @@ nav {
   margin: 0;
   padding: 0;
   background-color: transparent;
-  border: 1px solid rgb(245, 243, 243);
-  box-shadow: 0px 1px 10px rgb(0, 0, 0, 0.2);
+  /* border: 1px solid rgb(245, 243, 243);
+  box-shadow: 0px 1px 10px rgb(0, 0, 0, 0.2); */
   border-radius: 0.5rem;
   display: none;
   position: absolute;
   top: 7rem;
-  left: 1.5rem;
+  left: 0.5rem;
+  z-index: 10000;
 }
 
 .lang-menu:hover ul {
@@ -804,6 +805,9 @@ a:hover {
 
   .mobile-menu.active .line3 {
     transform: rotate(45deg) translate(-5px, -7px);
+  }
+  .lang-menu ul {
+    left: 1.5rem;
   }
 }
 
