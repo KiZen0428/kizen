@@ -181,7 +181,7 @@ nav img {
   display: none;
   position: absolute;
   top: 3rem;
-  left: 0;
+  right: 0;
 }
 
 .lang-menu:hover ul {
@@ -197,7 +197,7 @@ nav img {
   padding: 0.2rem 1rem;
 }
 .lang-menu ul li a:hover {
-  background: #312f2f;
+  /* background: #312f2f; */
 }
 .lang-menu ul li a::before {
   margin-right: 1rem;
@@ -218,7 +218,7 @@ nav img {
   background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/China_Flag_-_Alternative.svg/1280px-China_Flag_-_Alternative.svg.png');
 }
 .lang-menu .en::before {
-  background-image: url('https://w0.peakpx.com/wallpaper/319/186/HD-wallpaper-uk-flag-english-gran-inglaterra-london-londres-reino-unido-united-kingdom.jpg');
+  background-image: url('https://w0.peakpx.com/wallpaper/319/186/HD-wallpaper-uk-flag-english-gran-inglaterra-london-londres-reino-unido-united-kingdom.jpg'); margin: auto;
 }
 
 
