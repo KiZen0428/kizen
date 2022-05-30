@@ -11,6 +11,7 @@
   vertical-align: baseline;
   background: transparent;
   box-sizing: border-box;
+  --border: 0.1rem solid rgba(255, 255, 255, 0.3);
 }
 
 #slider {
@@ -51,26 +52,33 @@ h2 {
 }
 
 .header {
-  position: fixed;
-  /* position: relative; */
-  height: 70px;
-  /* min-height: 100vh; */
-  z-index: 999;
-
-  width: 100%;
-  background-position: center;
-  background-size: cover;
-
-  /* layout */
-  /* display: flex; */
-  justify-content: space-between;
+  z-index: 10000;
+  background: transparent;
+  display: flex;
   align-items: center;
-
-  /* color: #fff; */
-  text-align: center;
-  padding: 20px;
+  justify-content: space-between;
+  padding: 1.5rem 7%;
+  /* border-bottom: var(--border); */
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
-
+.header .logo {
+  margin: 0 2rem;
+  z-index: 101;
+}
+.header .logo :nth-child(2) {
+  display: none;
+}
+.header .logo img {
+  height: 2.5rem;
+}
+.header .navbar a {
+  margin: 0 1rem;
+  font-size: 1rem;
+  color: #fff;
+}
 #header.UpMove {
   animation: UpAnime 0.5s forwards;
 }
@@ -128,10 +136,10 @@ nav {
   height: 15vh;
 }
 
-nav img {
+/* nav img {
   height: 200px;
   padding-top: 2.5rem;
-}
+} */
 
 .nav-list {
   list-style: none;
@@ -146,25 +154,46 @@ nav img {
 /* Languaje features */
 
 .lang-menu {
-  margin: auto 0;
+  margin: auto 1rem;
   position: relative;
+  padding-bottom: 3rem;
+  cursor: pointer;
 }
-.selected-lang {
+.imga-container {
+  margin: auto;
+}
+.header .selected-lang {
+  position: relative;
+  width: 90%;
+  left: 1rem;
+  padding: 0;
+  z-index: 100;
+}
+/* .selected-lang {
+  padding: 1rem 0;
   display: flex;
   justify-content: space-between;
   cursor: pointer;
   color: white;
   line-height: 2;
   width: 80%;
+} */
+.selected-lang picture {
+  display: block;
+  width: 3rem;
+  height: 2rem;
 }
+.selected-lang img {
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .selected-lang::before {
   content: '';
   display: block;
-  width: 3rem;
+  width: 4rem;
   height: 3rem;
-  background-image: url('https://www.japan-experience.com/sites/default/files/images/content_images/flag-a.jpg');
-  background-size: contain;
-  background-repeat: no-repeat;
 }
 .selected-lang h3 {
   padding: auto;
@@ -175,13 +204,19 @@ nav img {
   margin: 0;
   padding: 0;
   background-color: transparent;
-  border: 1px solid rgb(245, 243, 243);
-  box-shadow: 0px 1px 10px rgb(0, 0, 0, 0.2);
+  /* border: 1px solid rgb(245, 243, 243);
+  box-shadow: 0px 1px 10px rgb(0, 0, 0, 0.2); */
   border-radius: 0.5rem;
   display: none;
   position: absolute;
+<<<<<<< HEAD
   top: 3rem;
   right: 0;
+=======
+  top: 7rem;
+  left: 0.5rem;
+  z-index: 10000;
+>>>>>>> fee7953fe92016f8b6826ca706321624429d432e
 }
 
 .lang-menu:hover ul {
@@ -197,7 +232,13 @@ nav img {
   padding: 0.2rem 1rem;
 }
 .lang-menu ul li a:hover {
+<<<<<<< HEAD
   /* background: #312f2f; */
+=======
+  padding: 1rem;
+  border-radius: 0.4rem;
+  background: #312f2f;
+>>>>>>> fee7953fe92016f8b6826ca706321624429d432e
 }
 .lang-menu ul li a::before {
   margin-right: 1rem;
@@ -220,11 +261,6 @@ nav img {
 .lang-menu .en::before {
   background-image: url('https://w0.peakpx.com/wallpaper/319/186/HD-wallpaper-uk-flag-english-gran-inglaterra-london-londres-reino-unido-united-kingdom.jpg'); margin: auto;
 }
-
-
-
-
-
 
 .mobile-menu {
   cursor: pointer;
@@ -671,6 +707,12 @@ a:hover {
   .collection__ttl-ja {
     height: 50px;
   }
+  .header {
+    padding: 1.5rem 2rem;
+  }
+  .header .selected-lang {
+    padding: 0 1.5rem;
+  }
 }
 
 @media screen and (max-width: 900px) {
@@ -685,22 +727,15 @@ a:hover {
   }
 }
 
-@media screen and (max-width: 600px) {
-  .collection__inner {
-    padding-right: 20px;
-    padding-left: 20px;
-  }
-  .selected-lang h3 {
-    display: none;
-  }
-}
-
 @media screen and (max-width: 900px) {
   .collection__item a:after {
     z-index: 0;
     right: -15px;
     max-width: 225px;
     width: 100%;
+  }
+  .mobile-menu {
+    padding-left: 20rem;
   }
 }
 
@@ -719,7 +754,7 @@ a:hover {
     position: fixed;
     z-index: 99;
     width: 90%;
-    background-color: #23232e;
+    background-color: #050505;
     opacity: 0.7;
   }
 
@@ -745,11 +780,14 @@ a:hover {
   }
 
   .mobile-menu {
-    display: block;
+    display: inline-block;
     color: #fff;
     font-weight: bold;
+    padding-left: 20rem;
   }
-
+  /* .selected-lang {
+    padding: 3.5rem 0;
+  } */
   .nav-list.active {
     transform: translateX(0);
   }
@@ -777,14 +815,37 @@ a:hover {
   .mobile-menu.active .line3 {
     transform: rotate(45deg) translate(-5px, -7px);
   }
+  .lang-menu ul {
+    left: 1.5rem;
+  }
 }
 
+@media screen and (max-width: 600px) {
+  .collection__inner {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .selected-lang h3 {
+    display: none;
+  }
+  .mobile-menu {
+    padding-left: 12rem;
+  }
+  .header .logo :nth-child(1) {
+    display: none;
+  }
+  .header .logo :nth-child(2) {
+    display: flex;
+  }
+}
 @media screen and (max-width: 480px) {
   .about-us {
     padding: 10px;
   }
+  .mobile-menu {
+    padding-left: 3rem;
+  }
 }
-
 /* --contact */
 
 .location {
@@ -844,6 +905,7 @@ a:hover {
   box-sizing: border-box;
 }
 .contact-col button {
+  color: black;
   cursor: pointer;
   border-radius: 1rem;
   border: 1px solid rgb(11, 11, 11);
