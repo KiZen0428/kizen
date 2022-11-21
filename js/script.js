@@ -42,6 +42,26 @@ mobileNavbar.init();
 
 
 
+// validate age modal
+
+$('.mb-up').on('click', function () {
+  $('.validate-modal').fadeOut();
+  $('html').css('overflow-y', '');
+  $.cookie("age", "ut", { expires: 1, path: "/" });
+});
+
+if ($.cookie("age") == "ut") {
+  $('.validate-modal').css('display', 'none');
+}
+
+$('.mb-under').on('click', function () {
+  $('.modal-box').css('display', 'none');
+  $('.validated-modal-box').fadeIn(1500).css('display', 'flex');
+});
+
+
+
+
 
 
 
