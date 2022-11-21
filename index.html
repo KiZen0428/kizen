@@ -33,6 +33,28 @@
 
 <body class="slider" id="slider">
 
+  <!-- Age verification modal -->
+  <div class="validate-modal">
+    <div class="modal-box">
+      <div class="modal-box-left">
+        <p class="modal-main-text-f">20歳以上ですか？</p>
+  
+        <p class="modal-main-text-s">このサイトはお酒に関する情報が含まれておりますので、20歳未満の方は、ご覧いただけません。</p>
+        <div class="modal-btn-box">
+          <p class="modal-btn mb-up">20歳以上</p>
+          <p class="modal-btn mb-under">20歳未満</p>
+        </div>
+      </div>
+      <div class="modal-box-right">
+
+      </div>
+      
+    </div>
+    <div class="validated-modal-box">
+      <h2 class="vmb-text">恐れ入りますが、このサイトはお酒に関する情報が含まれておりますので、20歳未満の方はご覧いただけません。</h2>
+    </div>
+  </div>
+
   <!-- The header starts -->
   <header class="header DownMove" id="header">
     <a href="" class="logo">
@@ -315,6 +337,9 @@
         <i class="fa fa-pinterest"></i>
       </a>
     </div>
+    <div class="tokushouhou-link">
+      <a href="https://kizen0428.com/shop_rule.html">特定商取引法に基づく表示</a>
+    </div>
     <p>Made by KiZen</p>
   </footer>
 
@@ -324,9 +349,13 @@
   <!-- the navi start script  -->
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  
 
   <!--custom JS-->
   <script src="js/5-1-9.js"></script>
+
+  <!-- cookie.js -->
+  <script type="text/javascript" src="js/jquery.cookie.js"></script>
 
 
 
@@ -338,6 +367,9 @@
 
   <!-- custom js  -->
   <script src="js/script.js"></script>
+
+  
 </body>
 
 </html>
+
