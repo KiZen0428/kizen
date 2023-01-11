@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300&display=swap");
 
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Noto Serif JP', serif;
+  font-family: "Noto Serif JP", serif;
   scroll-behavior: smooth;
   border: 0;
   outline: 0;
@@ -29,7 +29,6 @@ html {
   bottom: 0;
   z-index: -1;
 }
-
 
 /* Age verification */
 .validate-modal {
@@ -74,7 +73,6 @@ html {
   margin-top: 7.5rem;
 }
 
-
 .modal-main-text-s {
   font-size: 0.8rem;
   text-align: justify;
@@ -106,7 +104,7 @@ html {
   position: absolute;
   width: 100%;
   height: 100%;
-  content: '';
+  content: "";
   top: 0;
   left: 0;
   border: 1px solid #fff;
@@ -123,7 +121,7 @@ html {
 
 .modal-btn::after {
   position: absolute;
-  content: '';
+  content: "";
   bottom: 0;
   left: 0;
   height: 1.5rem;
@@ -131,11 +129,9 @@ html {
   width: 5rem;
   transform-origin: top left;
   transform: scale(0, 1);
-  transition: transform .3s;
+  transition: transform 0.3s;
   z-index: -1;
 }
-
-
 
 .modal-btn:hover::after {
   transform-origin: left top;
@@ -151,11 +147,9 @@ html {
   border-radius: 0 0.9rem 0.9rem 0;
 }
 
-
 .validated-modal-box {
   display: none;
 }
-
 
 .vmb-text {
   font-size: 1.5rem;
@@ -165,8 +159,6 @@ html {
   letter-spacing: 0.3rem;
   line-height: 3rem;
 }
-
-
 
 /* hidding navi start */
 #home {
@@ -341,7 +333,7 @@ nav {
 }
 
 .selected-lang::before {
-  content: '';
+  content: "";
   display: block;
   width: 4rem;
   height: 3rem;
@@ -368,7 +360,6 @@ nav {
   top: 7rem;
   left: 0.5rem;
   z-index: 10000;
-
 }
 
 .lang-menu:hover ul {
@@ -392,26 +383,26 @@ nav {
 
 .lang-menu ul li a::before {
   margin-right: 1rem;
-  content: '';
+  content: "";
   display: inline-block;
   width: 3rem;
   height: 2.5rem;
   vertical-align: middle;
-  background-image: url('');
+  background-image: url("");
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 .lang-menu .jp:before {
-  background-image: url('https://www.japan-experience.com/sites/default/files/images/content_images/flag-a.jpg');
+  background-image: url("https://www.japan-experience.com/sites/default/files/images/content_images/flag-a.jpg");
 }
 
 .lang-menu .ch:before {
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/China_Flag_-_Alternative.svg/1280px-China_Flag_-_Alternative.svg.png');
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/China_Flag_-_Alternative.svg/1280px-China_Flag_-_Alternative.svg.png");
 }
 
 .lang-menu .en::before {
-  background-image: url('https://w0.peakpx.com/wallpaper/319/186/HD-wallpaper-uk-flag-english-gran-inglaterra-london-londres-reino-unido-united-kingdom.jpg');
+  background-image: url("https://w0.peakpx.com/wallpaper/319/186/HD-wallpaper-uk-flag-english-gran-inglaterra-london-londres-reino-unido-united-kingdom.jpg");
   margin: auto;
 }
 
@@ -451,7 +442,7 @@ a:hover {
 }
 
 .btnripple3:hover::before {
-  content: '';
+  content: "";
 
   position: absolute;
   left: 30%;
@@ -479,7 +470,7 @@ a:hover {
 }
 
 .btnripple3::after {
-  content: '';
+  content: "";
 
   position: absolute;
   top: 30%;
@@ -561,7 +552,7 @@ a:hover {
 }
 
 .button021 a::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -578,7 +569,7 @@ a:hover {
 }
 
 .button021 a::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -598,8 +589,6 @@ a:hover {
 
 /* aboutus 1page finish */
 
-
-
 /* our-cliant */
 .our-cliant {
   background: #fff;
@@ -610,10 +599,9 @@ a:hover {
   text-align: left;
   padding: 100px;
 }
-.our-cliant h2 a{
+.our-cliant h2 a {
   color: #000;
 }
-
 
 .footer {
   color: rgb(11, 11, 11);
@@ -733,7 +721,7 @@ a:hover {
 }
 
 .collection__item--1 a:hover {
-  background-image: url(' https://github.com/KiZen0428/kizen/blob/main/images/kimono%20nishijin.jpg?raw=true');
+  background-image: url(" https://github.com/KiZen0428/kizen/blob/main/images/kimono%20nishijin.jpg?raw=true");
   transition: height 0.5s ease-in-out, box-shadow 0.6s linear;
   z-index: 10;
   background-repeat: no-repeat;
@@ -741,7 +729,7 @@ a:hover {
 }
 
 .collection__item--2 a:hover {
-  background-image: url(' https://github.com/KiZen0428/kizen/blob/main/images/sake.jpg?raw=true');
+  background-image: url(" https://github.com/KiZen0428/kizen/blob/main/images/sake.jpg?raw=true");
   transition: height 0.5s ease-in-out, box-shadow 0.6s linear;
   z-index: 10;
   background-repeat: no-repeat;
@@ -749,7 +737,7 @@ a:hover {
 }
 
 .collection__item--3 a:hover {
-  background-image: url(' https://images.unsplash.com/photo-1632790929202-a79cd10d9076?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80');
+  background-image: url(" https://images.unsplash.com/photo-1632790929202-a79cd10d9076?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80");
   transition: height 0.5s ease-in-out, box-shadow 0.6s linear;
   z-index: 10;
   background-repeat: no-repeat;
@@ -785,7 +773,15 @@ a:hover {
   transition: 0.8s ease;
   z-index: 1;
 }
+/* fix point 3  move contact-us css from bottom to above fix point 1*/
 
+.contact-us {
+  width: 80%;
+  margin: auto;
+  background-color: #fff;
+  padding-top: 0.8rem;
+  padding-bottom: 0.4rem;
+}
 @media screen and (max-width: 900px) {
   .collection__img img {
     max-width: 233px;
@@ -793,6 +789,40 @@ a:hover {
     max-height: 161px;
     height: auto;
   }
+  /* fix point 1 */
+  .collection__item--1 a:hover {
+    background-image: url("yi.jpg");
+    transition: height 0.5s ease-in-out, box-shadow 0.6s linear;
+    z-index: 10;
+    background-repeat: no-repeat;
+    background-size: 100% 85%;
+  }
+
+  .collection__item--2 a:hover {
+    background-image: url("yi.jpg");
+    transition: height 0.5s ease-in-out, box-shadow 0.6s linear;
+    z-index: 10;
+    background-repeat: no-repeat;
+    background-size: 100% 85%;
+  }
+
+  .collection__item--3 a:hover {
+    background-image: url("yi.jpg");
+    transition: height 0.5s ease-in-out, box-shadow 0.6s linear;
+    z-index: 10;
+    background-repeat: no-repeat;
+    background-size: 100% 85%;
+  }
+  .product {
+    width: 95%;
+  }
+  .about-us {
+    width: 95%;
+  }
+  .contact-us {
+    width: 95%;
+  }
+  /* end of fix point */
 
   .collection__ttl {
     display: flex;
@@ -962,8 +992,8 @@ a:hover {
   .mobile-menu {
     padding-left: 3rem;
   }
-  
-   /* Age verification */
+
+  /* Age verification */
   .validate-modal {
     width: 100%;
     height: 100%;
@@ -1005,7 +1035,6 @@ a:hover {
     padding: 0.5rem 1rem;
   }
 
-
   .validated-modal-box {
     height: 100%;
     width: 100%;
@@ -1032,17 +1061,13 @@ a:hover {
   width: 100%;
 }
 
-.contact-us {
-  width: 80%;
-  margin: auto;
-  background-color: #fff;
-  padding-top: 0.8rem;
-  padding-bottom: 0.4rem;
-}
-
 .contact-col {
   flex-basis: 48%;
   margin-bottom: 30px;
+  /* fix point 2 */
+  margin-left: 5px;
+  margin-right: 5px;
+  /* end of fix point 2 */
 }
 
 .contact-col div {
@@ -1100,7 +1125,6 @@ a:hover {
   color: #fff;
 }
 
-
 /* .tokushouhou */
 .tokushouhou {
   width: 80%;
@@ -1134,7 +1158,6 @@ a:hover {
 .ts-table table tbody tr td {
   border: 2px solid rgb(255, 255, 255);
   padding: 0.8rem;
-  
 }
 
 .ts-table table tbody tr td:first-child {
