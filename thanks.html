@@ -32,19 +32,43 @@
   </head>
 
   <body class="slider" id="slider">
+    <!-- Age verification modal -->
+    <div class="validate-modal">
+      <div class="modal-box">
+        <div class="modal-box-left">
+          <p class="modal-main-text-f">20歳以上ですか？</p>
+
+          <p class="modal-main-text-s">
+            このサイトはお酒に関する情報が含まれておりますので、20歳未満の方はご覧いただけません。
+          </p>
+          <div class="modal-btn-box">
+            <p class="modal-btn mb-up">20歳以上</p>
+            <p class="modal-btn mb-under">20歳未満</p>
+          </div>
+        </div>
+        <div class="modal-box-right"></div>
+      </div>
+      <div class="validated-modal-box">
+        <h2 class="vmb-text">
+          恐れ入りますが、このサイトはお酒に関する情報が含まれておりますので、20歳未満の方はご覧いただけません。
+        </h2>
+      </div>
+    </div>
+
     <!-- The header starts -->
     <header class="header DownMove" id="header">
+      <a href="" class="logo">
+        <img src="images/logoname.png" alt="Kizen" />
+        <img src="images/logo.png" alt="Kizen" />
+      </a>
       <nav class="navbar">
-        <a href="">
-          <img src="images/logo .png" alt="Kizen" />
-        </a>
         <div class="mobile-menu">
           <div class="line1"></div>
           <div class="line2"></div>
           <div class="line3"></div>
         </div>
         <ul class="nav-list">
-          <li><a href="index.html" class="btnripple3">Home</a></li>
+          <li><a href="#home" class="btnripple3">Home</a></li>
           <li><a href="#line-up" class="btnripple3">Line up</a></li>
           <li><a href="#about" class="btnripple3">About</a></li>
           <li>
@@ -52,16 +76,37 @@
           </li>
         </ul>
       </nav>
+      <div class="lang-menu">
+        <div class="selected-lang">
+          <picture class="imga-container">
+            <img
+              src="https://www.japan-experience.com/sites/default/files/images/content_images/flag-a.jpg"
+              alt=""
+            />
+          </picture>
+        </div>
+        <ul>
+          <li>
+            <a href="index__chinese.html" class="ch"></a>
+          </li>
+          <li>
+            <a href="index__english.html" class="en"></a>
+          </li>
+        </ul>
+      </div>
     </header>
+    <div class="our-cliant">
+      <div class="cliant-tittle">
+        <h2>
+          <a href="index.html">「ありがとうございます、元気でいてください」</a>
+        </h2>
+        <h2>
+          <a href="index.html">Thank you very much, please stay healthy.</a>
+        </h2>
+      </div>
+    </div>
 
-    <!-- section line up start 1ページの為に取っておく-->
-
-    <section class="" id="home">
-      <h1>Thanks for contact us</h1>
-      <h2>Arigato</h2>
-    </section>
-
-    <!-- footer page -->
+    <section class="" id="home"></section>
 
     <footer class="footer">
       <h4>KiZen</h4>
@@ -100,8 +145,15 @@
         </a>
       </div>
       <div class="tokushouhou-link">
-      <a href="https://kizen0428.com/shop_rule.html">Display based on Specified Commercial Transaction Law</a>
-    </div>
+        <a href="https://kizen0428.com/shop_rule.html"
+          >特定商取引法に基づく表示</a
+        >
+      </div>
+      <div class="tokushouhou-link">
+        <a href="https://kizen0428.com/shop_rule.html"
+          >Display based on Specified Commercial Transaction Law</a
+        >
+      </div>
       <p>Made by KiZen</p>
     </footer>
 
@@ -114,6 +166,9 @@
 
     <!--custom JS-->
     <script src="js/5-1-9.js"></script>
+
+    <!-- cookie.js -->
+    <script type="text/javascript" src="js/jquery.cookie.js"></script>
 
     <!-- others JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vegas/2.4.4/vegas.min.js"></script>

@@ -29,32 +29,11 @@
     <link rel="stylesheet" type="text/css" href="css/7-1-13.css" />
     <!-- new hidding navi -->
     <link rel="stylesheet" type="text/css" href="css/5-1-9.css" />
+
+    <link rel="stylesheet" href="./css/style-en.css" />
   </head>
 
   <body class="slider" id="slider">
-    <!-- Age verification modal -->
-    <div class="validate-modal">
-      <div class="modal-box">
-        <div class="modal-box-left">
-          <p class="modal-main-text-f">20歳以上ですか？</p>
-
-          <p class="modal-main-text-s">
-            このサイトはお酒に関する情報が含まれておりますので、20歳未満の方はご覧いただけません。
-          </p>
-          <div class="modal-btn-box">
-            <p class="modal-btn mb-up">20歳以上</p>
-            <p class="modal-btn mb-under">20歳未満</p>
-          </div>
-        </div>
-        <div class="modal-box-right"></div>
-      </div>
-      <div class="validated-modal-box">
-        <h2 class="vmb-text">
-          恐れ入りますが、このサイトはお酒に関する情報が含まれておりますので、20歳未満の方はご覧いただけません。
-        </h2>
-      </div>
-    </div>
-
     <!-- The header starts -->
     <header class="header DownMove" id="header">
       <a href="" class="logo">
@@ -68,11 +47,11 @@
           <div class="line3"></div>
         </div>
         <ul class="nav-list">
-          <li><a href="#home" class="btnripple3">主页</a></li>
-          <li><a href="#line-up" class="btnripple3">产品阵容</a></li>
-          <li><a href="#about" class="btnripple3">关于我们</a></li>
+          <li><a href="#home" class="btnripple3">Home</a></li>
+          <li><a href="#line-up" class="btnripple3">Line up</a></li>
+          <li><a href="#about" class="btnripple3">About</a></li>
           <li>
-            <a href="#contact" class="btnripple3">联系方式</a>
+            <a href="#contact" class="btnripple3">Contact</a>
           </li>
         </ul>
       </nav>
@@ -80,22 +59,27 @@
         <div class="selected-lang">
           <picture class="imga-container">
             <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/China_Flag_-_Alternative.svg/1280px-China_Flag_-_Alternative.svg.png"
+              src="https://w0.peakpx.com/wallpaper/319/186/HD-wallpaper-uk-flag-english-gran-inglaterra-london-londres-reino-unido-united-kingdom.jpg"
               alt=""
             />
           </picture>
         </div>
         <ul>
           <li>
-            <a href="index.html" class="jp"></a>
+            <a
+              href="index.html"
+              class="jp"
+              aria-label="Index part of the website"
+            ></a>
           </li>
           <li>
-            <a href="index__english.html" class="en"></a>
+            <a href="index__chinese.html" class="ch" 
+            aria-label="Chinese part of the website"
+            ></a>
           </li>
         </ul>
       </div>
     </header>
-
     <!-- section line up start 1ページの為に取っておく-->
 
     <section class="" id="home"></section>
@@ -104,7 +88,7 @@
 
     <section class="product" id="line-up">
       <h1>Line <span>U</span>p</h1>
-      <p>产品阵容</p>
+      <p>Introduce of product</p>
 
       <div class="collection">
         <div class="collection_inner">
@@ -132,16 +116,17 @@
                 </picture>
               </div>
               <p class="collection__lead">
-                优雅而有光泽<br />
-                让我们随意穿上日本的心
+                Elegant or Modestly ?<br />
+                Be dressed with japanese spirit casually
               </p>
               <br />
               <p class="collection__text">
-                专注于日本自古流行的和服和绢
-                <br />
-                穿着舒适，拥有让我们的心华丽的一件。
+                Focusing on kimono and silk that have been popular <br />in
+                Japan <br />
+                since ancient times <br />
+                Comfotable, A piace of making you feel invigorate.
               </p>
-              <div class="collection__more"><span>去购物网站</span></div>
+              <div class="collection__more"><span>View more</span></div>
             </a>
           </section>
 
@@ -169,17 +154,23 @@
                 </picture>
               </div>
               <p class="collection__lead">
-                米、酒、盐、水、发酵。<br />好东西让你的身体快乐。健康快乐的时光当然很简单。
+                Rise sake solt water fermentation<br />Good things make your
+                body happy. It is surely simple<br />
+                to be healthy and happy.
               </p>
               <br />
               <p class="collection__text">
-                清酒的起源是引入水稻栽培的弥生时代或绳文时代。
-                <br />
-                它是一种神秘的国酒，深深地参与了神道教的仪式，仅限于祈求丰收。
-                在现代<br />它是一种特殊的存在，可以放松人们的心灵，为食物增添色彩。
-                　
+                The origin of sake has inherited been since rice cultivation<br />
+                was introduced in the Yayoi period or the Jomon period.<br />
+                It is a mysterious national sake that has been deeply
+                involved<br />
+                in Shinto rituals and is limited to praying <br />for a good
+                harvest.
+
+                <br />Today it is being untie people's heart adding color to the
+                food. 　
               </p>
-              <div class="collection__more"><span>去购物网站</span></div>
+              <div class="collection__more"><span>View more</span></div>
             </a>
           </section>
 
@@ -207,14 +198,15 @@
                 </picture>
               </div>
               <p class="collection__lead">
-                与日常生活有关的东西（日本纸、西阵织靠垫、风铃）
+                Washi (japanese traditional handmade paper) <br />Nishijin silk
+                fabrics and Furin (wind chime)
               </p>
               <br />
               <p class="collection__text">
-                用眼睛看，听声音，用手摸<br />
-                日常生活中的东西填满了没有形状的重要部分。
+                Seeing, hearing, touching <br />Something with shape fulfill an
+                important part of <br />something shapeless
               </p>
-              <div class="collection__more"><span>去购物网站</span></div>
+              <div class="collection__more"><span>View more</span></div>
             </a>
           </section>
         </div>
@@ -229,29 +221,45 @@
       <div class="cp_box">
         <h1>A<span>b</span>out Us</h1>
         <p class="note">
-          我们创立 KiZen 的契机是希望将日本的很精彩的东西带给全世界的人们。
-          作为传达人日本传统工艺和文化精心制作中蕴含的灵魂=创作者的感情=
-          真心　　我们牢牢地接收和传达，我们将小心地将它传递给那些接受了那颗心的人
+          We started KiZen company with the desire to spread the a part of
+          attractive in Japan and share with people in all over the world. We
+          will take seriously of their Soul that dwells in things that are
+          carefully made as Japanese traditional crafts and Japanese traditional
+          culture
+
           <br />
           <br />
 
-          回想起来，近年来，世界一直在花时间面对一个共同的主题。
+          When I think about it, in recent years it has been a time when the
+          world has spent time facing a common theme
           <br />
-          健康和和平。
+          for health and for peace.
           <br />
-          这是每个人都普遍想要的东西，但它已经很长时间没有实现了，正因为这样，现在我认为我们的目标是我们接下来如何采取行动。
+          We everyone hope that universally but as the time passes, it doesn't
+          come true. So this was the time to think again deeply and face the
+          problems how to get first step.
           <br />
-          我觉得提示就在超越了多少人类的生命的“传统”中。
+
+          I feel that the hint is "tradition" that has been inherited and across
+          time of lives of a single human being.
 
           <br /><br />
-          有一个“传统”，一直流传下来，息悄无声地重复着。在那个漫漫长长的进化过程中，创作者和用户总是过着谦虚的生活。它支撑着人们的生活，多彩，丰富，与当下相连，同时发挥着具体“物”的功能。
+          There is a "tradition" that has been passed down and repeated quietly.
+          In a such long period of time, there was always a modest life of
+          creators and users. It supports and make people's lives colorful, rich
+          and is connected to the present as "thing" (something with shape).
+
           <br />
-          同时，诸行无常是世间的常态，人与物若生，必灭，无永恒。随着一时的繁华和时尚随着时间的流逝而变得过时而消失，我觉得有人有强烈的离开的意愿，时不时地改变形状，改变用途，做出必要的改变。
+          At the same time, 諸行無常( It mean all things are not permanent) is
+          the common sense in the world and if people and things are born, they
+          will be destroyed and there will be no eternity. While a fad and
+          prosperous life becomes obsolete quickly, someone had a strong desire
+          to inherit using many ways
 
           <br /><br /><br /><br />
         </p>
         <div class="button021">
-          <a href="about-us.html">后续</a>
+          <a href="about-us.html">Continue to Read</a>
         </div>
       </div>
     </section>
@@ -273,25 +281,23 @@
             <i class="fa fa-home"></i>
             <span>
               <h5>Shizuoka Japan</h5>
-              <p>静冈県静冈市</p>
+              <p></p>
             </span>
           </div>
           <div>
             <i class="fa fa-phone"></i>
             <span>
               <h5>+81 054 264 6454</h5>
-              <p>从星期一到星期六, 10AM 到 6PM 日本时间</p>
+              <p>Monday to Saturday, 10AM to 6PM Japan-time</p>
             </span>
           </div>
           <div>
             <i class="fa fa-envelope-o"></i>
             <span>
-              <h5>
-                中文 sakura@kizen0428.com
-                <br />
-              </h5>
+              <h5></h5>
               <p>
-                请随意咨询
+                sakura@kizen0428.com <br />
+                please contact us your query
                 <br />
               </p>
             </span>
@@ -306,14 +312,14 @@
             <input
               type="text"
               name="name"
-              placeholder="您的名字"
+              placeholder="Enter your name"
               autocomplete="name"
               required
             />
             <input
               type="email"
               name="email"
-              placeholder="您的电子邮箱"
+              placeholder="Enter email address"
               autocomplete="email"
               required
             />
@@ -322,14 +328,19 @@
               name="_next"
               value="https://kizen0428.com/thanks.html"
             />
-            <input type="text" name="subject" placeholder="主题" required />
+            <input
+              type="text"
+              name="subject"
+              placeholder="Enter your subject"
+              required
+            />
             <textarea
               rows="8"
               name="message"
-              placeholder="内容"
+              placeholder="Message"
               required
             ></textarea>
-            <button type="submit" class="hero-btn red-btn">传送消息</button>
+            <button type="submit" class="button022">Send Message</button>
           </form>
         </div>
       </div>
@@ -344,6 +355,8 @@
           href="https://www.facebook.com/Kizen00428"
           target="_blank"
           rel="nofollow noopener"
+          aria-label="facebook part of the website"
+
         >
           <i class="fa fa-facebook"></i>
         </a>
@@ -352,6 +365,8 @@
           href="https://www.instagram.com/kizen0428/"
           target="_blank"
           rel="nofollow noopener"
+          aria-label="instagram part of the website"
+
         >
           <i class="fa fa-instagram"></i>
         </a>
@@ -359,6 +374,8 @@
           href="https://twitter.com/KiZen0428"
           target="_blank"
           rel="nofollow noopener"
+          aria-label="Twiteer part of the website"
+
         >
           <i class="fa fa-twitter"></i>
         </a>
@@ -367,13 +384,15 @@
           href="https://www.pinterest.jp/kizen0428"
           target="_blank"
           rel="nofollow noopener"
+          aria-label="Printerest part of the website"
+
         >
           <i class="fa fa-pinterest"></i>
         </a>
       </div>
       <div class="tokushouhou-link">
         <a href="https://kizen0428.com/shop_rule.html"
-          >基於特定商業交易法的顯示</a
+          >Display based on Specified Commercial Transaction Law</a
         >
       </div>
       <p>Made by KiZen</p>
