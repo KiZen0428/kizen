@@ -1,345 +1,397 @@
 <!DOCTYPE html>
 <html lang="ch">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KiZen</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>KiZen</title>
+    <!-- link for te font awesome  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- Link for the animation javascript library start -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/vegas/2.4.4/vegas.min.css"
+    />
+    <!-- import css tag -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Modaal/0.4.4/css/modaal.min.css"
+    />
+    <!-- link our css file -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- navi effect 波紋　css  -->
+    <link rel="stylesheet" type="text/css" href="css/7-1-13.css" />
+    <!-- new hidding navi -->
+    <link rel="stylesheet" type="text/css" href="css/5-1-9.css" />
+    <link rel="stylesheet" href="./css/style-ch.css" />
+  </head>
 
-  <!-- link for te font awesome  -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <!-- Link for the animation javascript library start -->
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/vegas/2.4.4/vegas.min.css" />
-  <!-- import css tag -->
-  <link rel="stylesheet" type="text/css"
-    href="https://cdnjs.cloudflare.com/ajax/libs/Modaal/0.4.4/css/modaal.min.css" />
-  <!-- link our css file -->
-  <link rel="stylesheet" href="css/style.css" />
-  <!-- navi effect 波紋　css  -->
-  <link rel="stylesheet" type="text/css" href="css/7-1-13.css">
-  <!-- new hidding navi -->
-  <link rel="stylesheet" type="text/css" href="css/5-1-9.css">
-  <link rel="stylesheet" href="./css/style-ch.css">
+  <body class="slider" id="slider">
+    <div class="validate-modal">
+      <div class="modal-box">
+        <div class="modal-box-left">
+          <p class="modal-main-text-f">20歳以上ですか？</p>
 
-</head>
-
-
-
-
-
-
-
-
-
-<body class="slider" id="slider">
-
-  <!-- The header starts -->
-  <header class="header DownMove" id="header">
-    <a href="" class="logo">
-      <img src="images/logoname.png" alt="Kizen" />
-      <img src="images/logo.png" alt="Kizen" />
-    </a>
-    <nav class="navbar">
-
-      <div class="mobile-menu">
-        <div class="line1"></div>
-        <div class="line2"></div>
-        <div class="line3"></div>
+          <p class="modal-main-text-s">
+            このサイトはお酒に関する情報が含まれておりますので、20歳未満の方はご覧いただけません。
+          </p>
+          <div class="modal-btn-box">
+            <p class="modal-btn mb-up">20歳以上</p>
+            <p class="modal-btn mb-under">20歳未満</p>
+          </div>
+        </div>
+        <div class="modal-box-right"></div>
       </div>
-      <ul class="nav-list">
-        <li><a href="#home" class="btnripple3">主页</a></li>
-        <li><a href="#line-up" class="btnripple3">产品阵容</a></li>
-        <li><a href="#about" class="btnripple3">关于我们</a></li>
-        <li>
-          <a href="#contact" class="btnripple3">联系方式</a>
-        </li>
-      </ul>
-    </nav>
-    <div class="lang-menu">
-      <div class="selected-lang">
-        <picture class="imga-container">
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/China_Flag_-_Alternative.svg/1280px-China_Flag_-_Alternative.svg.png"
-            alt="">
-        </picture>
+      <div class="validated-modal-box">
+        <h2 class="vmb-text">
+          恐れ入りますが、このサイトはお酒に関する情報が含まれておりますので、20歳未満の方はご覧いただけません。
+        </h2>
       </div>
-      <ul>
-        <li>
-          <a href="index.html" class="jp"></a>
-        </li>
-        <li>
-          <a href="index__english.html" class="en"></a>
-        </li>
-      </ul>
-
     </div>
-  </header>
+    <!-- The header starts -->
+    <header class="header DownMove" id="header">
+      <a href="" class="logo">
+        <img src="images/logoname.png" alt="Kizen" />
+        <img src="images/logo.png" alt="Kizen" />
+      </a>
+      <nav class="navbar">
+        <div class="mobile-menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <ul class="nav-list">
+          <li><a href="#home" class="btnripple3">主页</a></li>
+          <li><a href="#line-up" class="btnripple3">产品阵容</a></li>
+          <li><a href="#about" class="btnripple3">关于我们</a></li>
+          <li>
+            <a href="#contact" class="btnripple3">联系方式</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="lang-menu">
+        <div class="selected-lang">
+          <picture class="imga-container">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/China_Flag_-_Alternative.svg/1280px-China_Flag_-_Alternative.svg.png"
+              alt=""
+            />
+          </picture>
+        </div>
+        <ul>
+          <li>
+            <a href="index.html" class="jp"></a>
+          </li>
+          <li>
+            <a href="index__english.html" class="en"></a>
+          </li>
+        </ul>
+      </div>
+    </header>
 
+    <!-- section line up start 1ページの為に取っておく-->
 
-  <!-- section line up start 1ページの為に取っておく-->
+    <section class="" id="home"></section>
 
-  <section class="" id="home">
+    <!-- product page -->
 
-  </section>
+    <section class="product" id="line-up">
+      <h1>Line <span>U</span>p</h1>
+      <p>产品阵容</p>
 
-  <!-- product page -->
+      <div class="collection">
+        <div class="collection_inner">
+          <section class="collection__item collection__item--1" id="material">
+            <a href="https://kizen0428.myshopify.com">
+              <div class="collection__ttl">
+                <div class="collection__ttl-en">衣</div>
+                <h2 class="collection__ttl-ja">japanese clothes</h2>
+              </div>
+              <div class="collection__img">
+                <picture>
+                  <source
+                    srcset="
+                      https://github.com/KiZen0428/kizen/blob/main/images/kimono%20nishijin.jpg?raw=true 1x,
+                      https://github.com/KiZen0428/kizen/blob/main/images/kimono%20nishijin.jpg?raw=true
+                    "
+                    media="screen and (max-width: 600px)"
+                  />
+                  <img
+                    src="https://github.com/KiZen0428/kizen/blob/main/images/kimono%20nishijin.jpg?raw=true"
+                    width="250"
+                    height="200"
+                    alt=""
+                  />
+                </picture>
+              </div>
+              <p class="collection__lead">
+                优雅而有光泽<br />
+                让我们随意穿上日本的心
+              </p>
+              <br />
+              <p class="collection__text">
+                专注于日本自古流行的和服和绢
+                <br />
+                穿着舒适，拥有让我们的心华丽的一件。
+              </p>
+              <div class="collection__more"><span>去购物网站</span></div>
+            </a>
+          </section>
 
-  <section class="product" id="line-up">
-    <h1>Line <span>U</span>p</h1>
-    <p>产品阵容</p>
-
-    <div class="collection">
-      <div class="collection_inner">
-        <section class="collection__item collection__item--1" id="material">
-
-          <a href="https://kizen0428.myshopify.com">
-            <div class="collection__ttl">
-              <div class="collection__ttl-en">衣</div>
-              <h2 class="collection__ttl-ja"> japanese clothes </h2>
-            </div>
-            <div class="collection__img">
-              <picture>
-                <source srcset="
-                https://github.com/KiZen0428/kizen/blob/main/images/kimono%20nishijin.jpg?raw=true 1x,
-                https://github.com/KiZen0428/kizen/blob/main/images/kimono%20nishijin.jpg?raw=true                    "
-                  media="screen and (max-width: 600px)" />
-                <img src="https://github.com/KiZen0428/kizen/blob/main/images/kimono%20nishijin.jpg?raw=true"
-                  width="250" height="200" alt="" />
-              </picture>
-            </div>
-            <p class="collection__lead">
-              优雅而有光泽<br /> 让我们随意穿上日本的心
-            </p> <br>
-            <p class="collection__text">
-              专注于日本自古流行的和服和绢
-              <br>
-              穿着舒适，拥有让我们的心华丽的一件。
-            </p>
-            <div class="collection__more"><span>去购物网站</span></div>
-          </a>
-        </section>
-
-
-        <section class="collection__item collection__item--2" id="material">
-          <a href="https://kizen0428.myshopify.com">
-            <div class="collection__ttl">
-              <div class="collection__ttl-en">食</div>
-              <h2 class="collection__ttl-ja"> japanese foods </h2>
-            </div>
-            <div class="collection__img">
-              <picture>
-                <source srcset="
+          <section class="collection__item collection__item--2" id="material">
+            <a href="https://kizen0428.myshopify.com">
+              <div class="collection__ttl">
+                <div class="collection__ttl-en">食</div>
+                <h2 class="collection__ttl-ja">japanese foods</h2>
+              </div>
+              <div class="collection__img">
+                <picture>
+                  <source
+                    srcset="
                       https://github.com/KiZen0428/kizen/blob/main/images/sake.jpg?raw=true,
                       https://github.com/KiZen0428/kizen/blob/main/images/sake.jpg?raw=true
-                    " media="screen and (max-width: 600px)" />
-                <img src="https://github.com/KiZen0428/kizen/blob/main/images/sake.jpg?raw=true" width="250"
-                  height="200" alt="" />
-              </picture>
-            </div>
-            <p class="collection__lead">
-              米、酒、盐、水、发酵。<br>好东西让你的身体快乐。健康快乐的时光当然很简单。
+                    "
+                    media="screen and (max-width: 600px)"
+                  />
+                  <img
+                    src="https://github.com/KiZen0428/kizen/blob/main/images/sake.jpg?raw=true"
+                    width="250"
+                    height="200"
+                    alt=""
+                  />
+                </picture>
+              </div>
+              <p class="collection__lead">
+                米、酒、盐、水、发酵。<br />好东西让你的身体快乐。健康快乐的时光当然很简单。
+              </p>
+              <br />
+              <p class="collection__text">
+                清酒的起源是引入水稻栽培的弥生时代或绳文时代。
+                <br />
+                它是一种神秘的国酒，深深地参与了神道教的仪式，仅限于祈求丰收。
+                在现代<br />它是一种特殊的存在，可以放松人们的心灵，为食物增添色彩。
+                　
+              </p>
+              <div class="collection__more"><span>去购物网站</span></div>
+            </a>
+          </section>
 
-            </p><br>
-            <p class="collection__text">
-              清酒的起源是引入水稻栽培的弥生时代或绳文时代。
-              <br>
-              它是一种神秘的国酒，深深地参与了神道教的仪式，仅限于祈求丰收。
-              在现代<br>它是一种特殊的存在，可以放松人们的心灵，为食物增添色彩。
-              　
-            </p>
-            <div class="collection__more"><span>去购物网站</span></div>
-          </a>
-        </section>
-
-
-        <section class="collection__item collection__item--3" id="material">
-          <a href="https://kizen0428.myshopify.com">
-            <div class="collection__ttl">
-              <div class="collection__ttl-en">住</div>
-              <h2 class="collection__ttl-ja"> japanese lifestyle </h2>
-            </div>
-            <div class="collection__img">
-              <picture>
-                <source srcset="
+          <section class="collection__item collection__item--3" id="material">
+            <a href="https://kizen0428.myshopify.com">
+              <div class="collection__ttl">
+                <div class="collection__ttl-en">住</div>
+                <h2 class="collection__ttl-ja">japanese lifestyle</h2>
+              </div>
+              <div class="collection__img">
+                <picture>
+                  <source
+                    srcset="
                       https://images.unsplash.com/photo-1632790929202-a79cd10d9076?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80,
                       https://images.unsplash.com/photo-1632790929202-a79cd10d9076?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80
-                    " media="screen and (max-width: 600px)" />
-                <img
-                  src="https://images.unsplash.com/photo-1632790929202-a79cd10d9076?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80"
-                  width="250" height="200" alt="" />
-              </picture>
-            </div>
-            <p class="collection__lead">
-              与日常生活有关的东西（日本纸、西阵织靠垫、风铃）
-
-
-
-
-            </p><br>
-            <p class="collection__text">
-              用眼睛看，听声音，用手摸<br>
-              日常生活中的东西填满了没有形状的重要部分。
-            </p>
-            <div class="collection__more"><span>去购物网站</span></div>
-          </a>
-        </section>
-      </div>
-    </div>
-  </section>
-
-  <!-- finish -->
-
-  <!-- about us section start -->
-
-  <section class="about-us" id="about">
-    <div class="cp_box">
-
-      <h1>A<span>b</span>out Us</h1>
-      <p class="note">
-        我们创立 KiZen 的契机是希望将日本的很精彩的东西带给全世界的人们。
-
-        作为传达人日本传统工艺和文化精心制作中蕴含的灵魂=创作者的感情= 真心　　我们牢牢地接收和传达，我们将小心地将它传递给那些接受了那颗心的人
-        <br />
-        <br />
-
-
-        回想起来，近年来，世界一直在花时间面对一个共同的主题。
-        <br>
-        健康和和平。
-        <br>
-        这是每个人都普遍想要的东西，但它已经很长时间没有实现了，正因为这样，现在我认为我们的目标是我们接下来如何采取行动。
-        <br>
-        我觉得提示就在超越了多少人类的生命的“传统”中。
-
-        <br><br>
-        有一个“传统”，一直流传下来，息悄无声地重复着。在那个漫漫长长的进化过程中，创作者和用户总是过着谦虚的生活。它支撑着人们的生活，多彩，丰富，与当下相连，同时发挥着具体“物”的功能。
-        <br>
-        同时，诸行无常是世间的常态，人与物若生，必灭，无永恒。随着一时的繁华和时尚随着时间的流逝而变得过时而消失，我觉得有人有强烈的离开的意愿，时不时地改变形状，改变用途，做出必要的改变。
-
-        <br><br><br><br>
-
-      </p>
-      <div class="button021">
-        <a href="about-us.html">后续</a>
-      </div>
-
-  </section>
-
-
-
-  <br><br><br>
-  <section class="our-cliant">
-    <div class="cliant-tittle">
-      <h2>
-      <a  href="our-cliant.html">我们的取引先</a>
-      </h2>
-    </div>
-  </section>
-  <br><br><br>
-
-
-
-
-
-  <section class="contact-us" id="contact">
-    <div class="row" id="contact-here">
-      <div class="contact-col">
-        <div>
-          <i class="fa fa-home"></i>
-          <span>
-            <h5>Shizuoka Japan</h5>
-            <p>静冈県静冈市</p>
-          </span>
-        </div>
-        <div>
-          <i class="fa fa-phone"></i>
-          <span>
-            <h5>+81 054 264 6454</h5>
-            <p>从星期一到星期六, 10AM 到 6PM 日本时间</p>
-          </span>
-        </div>
-        <div>
-          <i class="fa fa-envelope-o"></i>
-          <span>
-            <h5>
-              中文 sakura@kizen0428.com
-              <br>
-
-            </h5>
-            <p>
-              请随意咨询
-              <br>
-
-            </p>
-          </span>
+                    "
+                    media="screen and (max-width: 600px)"
+                  />
+                  <img
+                    src="https://images.unsplash.com/photo-1632790929202-a79cd10d9076?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80"
+                    width="250"
+                    height="200"
+                    alt=""
+                  />
+                </picture>
+              </div>
+              <p class="collection__lead">
+                与日常生活有关的东西（日本纸、西阵织靠垫、风铃）
+              </p>
+              <br />
+              <p class="collection__text">
+                用眼睛看，听声音，用手摸<br />
+                日常生活中的东西填满了没有形状的重要部分。
+              </p>
+              <div class="collection__more"><span>去购物网站</span></div>
+            </a>
+          </section>
         </div>
       </div>
-      <div class="contact-col">
-        <form action="https://formsubmit.co/sakura@kizen0428.com" method="POST">
-          <input type="hidden" name="_subject" value="New email woooooo!">
-          <input type="text" name="name" placeholder="您的名字" autocomplete="name" required />
-          <input type="email" name="email" placeholder="您的电子邮箱" autocomplete="email" required />
-          <input type="hidden" name="_next" value="https://kizen0428.com/thanks.html">
-          <input type="text" name="subject" placeholder="主题" required />
-          <textarea rows="8" name="message" placeholder="内容" required></textarea>
-          <button type="submit" class="hero-btn red-btn">传送消息</button>
-        </form>
+    </section>
+
+    <!-- finish -->
+
+    <!-- about us section start -->
+
+    <section class="about-us" id="about">
+      <div class="cp_box">
+        <h1>A<span>b</span>out Us</h1>
+        <p class="note">
+          我们创立 KiZen 的契机是希望将日本的很精彩的东西带给全世界的人们。
+          作为传达人日本传统工艺和文化精心制作中蕴含的灵魂=创作者的感情=
+          真心　　我们牢牢地接收和传达，我们将小心地将它传递给那些接受了那颗心的人
+          <br />
+          <br />
+
+          回想起来，近年来，世界一直在花时间面对一个共同的主题。
+          <br />
+          健康和和平。
+          <br />
+          这是每个人都普遍想要的东西，但它已经很长时间没有实现了，正因为这样，现在我认为我们的目标是我们接下来如何采取行动。
+          <br />
+          我觉得提示就在超越了多少人类的生命的“传统”中。
+
+          <br /><br />
+          有一个“传统”，一直流传下来，息悄无声地重复着。在那个漫漫长长的进化过程中，创作者和用户总是过着谦虚的生活。它支撑着人们的生活，多彩，丰富，与当下相连，同时发挥着具体“物”的功能。
+          <br />
+          同时，诸行无常是世间的常态，人与物若生，必灭，无永恒。随着一时的繁华和时尚随着时间的流逝而变得过时而消失，我觉得有人有强烈的离开的意愿，时不时地改变形状，改变用途，做出必要的改变。
+
+          <br /><br /><br /><br />
+        </p>
+        <div class="button021">
+          <a href="about-us.html">后续</a>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
+    <br /><br /><br />
+    <section class="our-cliant">
+      <div class="cliant-tittle">
+        <h2>
+          <a href="our-cliant.html">我们的取引先</a>
+        </h2>
+      </div>
+    </section>
+    <br /><br /><br />
 
+    <section class="contact-us" id="contact">
+      <div class="row" id="contact-here">
+        <div class="contact-col">
+          <div>
+            <i class="fa fa-home"></i>
+            <span>
+              <h5>Shizuoka Japan</h5>
+              <p>静冈県静冈市</p>
+            </span>
+          </div>
+          <div>
+            <i class="fa fa-phone"></i>
+            <span>
+              <h5>+81 054 264 6454</h5>
+              <p>从星期一到星期六, 10AM 到 6PM 日本时间</p>
+            </span>
+          </div>
+          <div>
+            <i class="fa fa-envelope-o"></i>
+            <span>
+              <h5>
+                中文 sakura@kizen0428.com
+                <br />
+              </h5>
+              <p>
+                请随意咨询
+                <br />
+              </p>
+            </span>
+          </div>
+        </div>
+        <div class="contact-col">
+          <form
+            action="https://formsubmit.co/sakura@kizen0428.com"
+            method="POST"
+          >
+            <input type="hidden" name="_subject" value="New email woooooo!" />
+            <input
+              type="text"
+              name="name"
+              placeholder="您的名字"
+              autocomplete="name"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="您的电子邮箱"
+              autocomplete="email"
+              required
+            />
+            <input
+              type="hidden"
+              name="_next"
+              value="https://kizen0428.com/thanks.html"
+            />
+            <input type="text" name="subject" placeholder="主题" required />
+            <textarea
+              rows="8"
+              name="message"
+              placeholder="内容"
+              required
+            ></textarea>
+            <button type="submit" class="hero-btn red-btn">传送消息</button>
+          </form>
+        </div>
+      </div>
+    </section>
 
+    <footer class="footer">
+      <h4>KiZen</h4>
+      <p>己禅</p>
 
+      <div class="icon">
+        <a
+          href="https://www.facebook.com/Kizen00428"
+          target="_blank"
+          rel="nofollow noopener"
+        >
+          <i class="fa fa-facebook"></i>
+        </a>
 
+        <a
+          href="https://www.instagram.com/kizen0428/"
+          target="_blank"
+          rel="nofollow noopener"
+        >
+          <i class="fa fa-instagram"></i>
+        </a>
+        <a
+          href="https://twitter.com/KiZen0428"
+          target="_blank"
+          rel="nofollow noopener"
+        >
+          <i class="fa fa-twitter"></i>
+        </a>
 
-  <footer class="footer">
-    <h4>KiZen</h4>
-    <p>己禅</p>
+        <a
+          href="https://www.pinterest.jp/kizen0428"
+          target="_blank"
+          rel="nofollow noopener"
+        >
+          <i class="fa fa-pinterest"></i>
+        </a>
+      </div>
+      <div class="tokushouhou-link">
+        <a href="https://kizen0428.com/shop_rule.html"
+          >基於特定商業交易法的顯示</a
+        >
+      </div>
+      <p>Made by KiZen</p>
+    </footer>
 
-    <div class="icon">
-      <a href="https://www.facebook.com/Kizen00428" target="_blank" rel="nofollow noopener">
-        <i class="fa fa-facebook"></i>
-      </a>
+    <!-- the navi start script  -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
 
-      <a href="https://www.instagram.com/kizen0428/" target="_blank" rel="nofollow noopener">
-        <i class="fa fa-instagram"></i>
-      </a>
-      <a href="https://twitter.com/KiZen0428" target="_blank" rel="nofollow noopener">
-        <i class="fa fa-twitter"></i>
-      </a>
+    <!--custom JS-->
+    <script src="js/5-1-9.js"></script>
 
-      <a href="https://www.pinterest.jp/kizen0428" target="_blank" rel="nofollow noopener">
-        <i class="fa fa-pinterest"></i>
-      </a>
-    </div>
-    <div class="tokushouhou-link">
-      <a href="https://kizen0428.com/shop_rule.html">基於特定商業交易法的顯示</a>
-    </div>
-    <p>Made by KiZen</p>
-  </footer>
+    <!-- others JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vegas/2.4.4/vegas.min.js"></script>
 
-
-
-
-  <!-- the navi start script  -->
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-
-  <!--custom JS-->
-  <script src="js/5-1-9.js"></script>
-
-
-
-
-
-
-  <!-- others JS -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/vegas/2.4.4/vegas.min.js"></script>
-
-  <!-- custom js  -->
-  <script src="js/script.js"></script>
-</body>
-
+    <!-- custom js  -->
+    <script src="js/script.js"></script>
+  </body>
 </html>

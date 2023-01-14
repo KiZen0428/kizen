@@ -696,53 +696,57 @@ a:hover {
   color: #cbcbcb;
 }
 
+.collection__item a:hover {
+  border: solid 0.5px white;
+  transition: 0.2s ease-in-out;
+}
 .collection__item a:hover img {
-  opacity: 0.01;
+  opacity: 1;
 }
 
-.collection__item a:hover .collection__ttl {
+/* .collection__item a:hover .collection__ttl {
   color: rgb(253, 250, 250);
-  /* background: #383838; */
-}
-
+  background: #383838; 
+} */
+/* 
 .collection__item a:hover .collection__lead {
   color: rgb(8, 7, 7);
-  /* background: #383838; */
-}
+  background: #383838;
+} */
 
-.collection__item a:hover .collection__text {
+/* .collection__item a:hover .collection__text {
   color: rgb(4, 4, 4);
-  /* background: #383838; */
-}
+  background: #383838;
+} */
 
 .collection__item--2 {
   justify-content: right;
   align-items: center;
 }
 
-.collection__item--1 a:hover {
+/* .collection__item--1 a:hover {
   background-image: url(" https://github.com/KiZen0428/kizen/blob/main/images/kimono%20nishijin.jpg?raw=true");
   transition: height 0.5s ease-in-out, box-shadow 0.6s linear;
   z-index: 10;
   background-repeat: no-repeat;
   background-size: 87% 90%;
-}
+} */
 
-.collection__item--2 a:hover {
+/* .collection__item--2 a:hover {
   background-image: url(" https://github.com/KiZen0428/kizen/blob/main/images/sake.jpg?raw=true");
   transition: height 0.5s ease-in-out, box-shadow 0.6s linear;
   z-index: 10;
   background-repeat: no-repeat;
   background-size: 87% 90%;
-}
-
+} */
+/* 
 .collection__item--3 a:hover {
   background-image: url(" https://images.unsplash.com/photo-1632790929202-a79cd10d9076?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80");
   transition: height 0.5s ease-in-out, box-shadow 0.6s linear;
   z-index: 10;
   background-repeat: no-repeat;
   background-size: 87% 90%;
-}
+} */
 
 .collection__ttl {
   writing-mode: vertical-rl;
@@ -790,29 +794,29 @@ a:hover {
     height: auto;
   }
   /* fix point 1 */
-  .collection__item--1 a:hover {
+  /* .collection__item--1 a:hover {
     background-image: url("yi.jpg");
     transition: height 0.5s ease-in-out, box-shadow 0.6s linear;
     z-index: 10;
     background-repeat: no-repeat;
     background-size: 100% 85%;
-  }
+  } */
 
-  .collection__item--2 a:hover {
+  /* .collection__item--2 a:hover {
     background-image: url("yi.jpg");
     transition: height 0.5s ease-in-out, box-shadow 0.6s linear;
     z-index: 10;
     background-repeat: no-repeat;
     background-size: 100% 85%;
-  }
+  } */
 
-  .collection__item--3 a:hover {
+  /* .collection__item--3 a:hover {
     background-image: url("yi.jpg");
     transition: height 0.5s ease-in-out, box-shadow 0.6s linear;
     z-index: 10;
     background-repeat: no-repeat;
     background-size: 100% 85%;
-  }
+  } */
   .product {
     width: 95%;
   }
