@@ -376,6 +376,7 @@ nav {
   display: block;
   padding: 0.2rem 1rem;
 }
+
 /* /* 
 .lang-menu ul li a:hover {
 
@@ -512,7 +513,7 @@ a:hover {
 }
 
 .product span {
-  color: rgb(176, 174, 52);
+  color: white;
 }
 
 /* product section finish*/
@@ -595,7 +596,7 @@ a:hover {
   justify-content: center;
   align-items: center;
   position: relative;
-  top:60%;
+  top: 60%;
   background: #fff;
   color: #000;
   width: 50%;
@@ -604,11 +605,13 @@ a:hover {
   text-align: left;
   padding: 60px;
 }
+
 .our-cliant h2 a {
   font-size: 1.6rem;
   color: #000;
 }
-.our-cliant h2 a:hover{
+
+.our-cliant h2 a:hover {
   background-color: #000;
   transition: 0.3s ease-in-out;
   color: white;
@@ -706,12 +709,17 @@ a:hover {
   bottom: 50px;
   right: 15px;
   color: #cbcbcb;
+  border-color: white;
+  border: 1px solid white;
+  padding: 5px 20px 5px 20px;
+  background-color: rgb(176, 174, 52);
 }
 
 .collection__item a:hover {
   border: solid 0.5px white;
   transition: 0.2s ease-in-out;
 }
+
 .collection__item a:hover img {
   opacity: 1;
 }
@@ -789,6 +797,7 @@ a:hover {
   transition: 0.8s ease;
   z-index: 1;
 }
+
 /* fix point 3  move contact-us css from bottom to above fix point 1*/
 
 .contact-us {
@@ -798,6 +807,7 @@ a:hover {
   padding-top: 0.8rem;
   padding-bottom: 0.4rem;
 }
+
 @media screen and (max-width: 900px) {
   .collection__img img {
     max-width: 233px;
@@ -805,14 +815,16 @@ a:hover {
     max-height: 161px;
     height: auto;
   }
+
   /* fix point 1 */
-  /* .collection__item--1 a:hover {
+  .collection__item--1 a:hover {
     background-image: url("yi.jpg");
+    background-color: white;
     transition: height 0.5s ease-in-out, box-shadow 0.6s linear;
     z-index: 10;
     background-repeat: no-repeat;
     background-size: 100% 85%;
-  } */
+  }
 
   /* .collection__item--2 a:hover {
     background-image: url("yi.jpg");
@@ -832,12 +844,15 @@ a:hover {
   .product {
     width: 95%;
   }
+
   .about-us {
     width: 95%;
   }
+
   .contact-us {
     width: 95%;
   }
+
   /* end of fix point */
 
   .collection__ttl {
