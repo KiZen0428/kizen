@@ -516,6 +516,10 @@ a:hover {
   color: white;
 }
 
+.product h1 span {
+  color: rgb(182, 232, 89);
+}
+
 /* product section finish*/
 
 /* Aboutus 1page start */
@@ -817,14 +821,14 @@ a:hover {
   }
 
   /* fix point 1 */
-  .collection__item--1 a:hover {
+  /* .collection__item--1 a:hover {
     background-image: url("yi.jpg");
     background-color: white;
     transition: height 0.5s ease-in-out, box-shadow 0.6s linear;
     z-index: 10;
     background-repeat: no-repeat;
     background-size: 100% 85%;
-  }
+  } */
 
   /* .collection__item--2 a:hover {
     background-image: url("yi.jpg");
